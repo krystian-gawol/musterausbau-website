@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="de" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title data-i18n="doc.title">Trockenbau, Akustikbau &amp; Spanndecken – Prototyp</title>
+<meta name="description" content="Prototyp der Webseite für einen Betrieb für Trockenbau, Akustikbau und Spanndecken.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<!-- ===== PASEK PROTOTYPU (do usunięcia w wersji produkcyjnej) ===== -->
+<div id="protobar">
+  <b>PROTOTYP</b>
+  <div class="grp"><span class="lbl">Sprache / Język / Language:</span>
+    <button data-lang-btn="de" aria-pressed="true">DE</button>
+    <button data-lang-btn="pl" aria-pressed="false">PL</button>
+    <button data-lang-btn="en" aria-pressed="false">EN</button>
+  </div>
+  <span class="hint" data-i18n="proto.hint">Testversion – Inhalte, Bilder und Firmendaten sind Platzhalter.</span>
+</div>
+
+<header id="hdr">
+  <div class="wrap nav">
+    <a href="index.html" class="logo">
+      <span class="mk">MUSTER<em>AUSBAU</em></span>
+      <span class="sub" data-i18n="logo.sub">Trockenbau · Akustik · Decken</span>
+    </a>
+    <nav id="menu">
+      <a href="index.html" aria-current="page" data-i18n="nav.home">Start</a>
+      <a href="spanndecken.html" data-i18n="nav.span">Spanndecken</a>
+      <a href="trockenbau-akustikbau.html" data-i18n="nav.tab">Trockenbau &amp; Akustikbau</a>
+      <a href="#faq" data-i18n="nav.faq">FAQ</a>
+      <a href="#kontakt" data-i18n="nav.contact">Kontakt</a>
+    </nav>
+    <a class="tel" href="tel:+490000000000">+49 (0) 000 000 00 00<small data-i18n="hdr.telnote">Mo–Fr 8–18 Uhr</small></a>
+    <a class="btn btn-p" href="#kontakt" data-i18n="hdr.cta">Angebot anfragen</a>
+    <button class="burger" id="burger" aria-label="Menü">☰</button>
+  </div>
+</header>
+
+<main id="site">
+<span id="top"></span>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="wrap">
+    <span class="eyebrow" data-i18n="hero.eyebrow">Trockenbau · Akustikbau · Spanndecken</span>
+    <h1 data-i18n="hero.h1">Wände, Decken und Akustik – aus einer Hand.</h1>
+    <p data-i18n="hero.p">Ob Trennwand, abgehängte Decke, Schallschutz oder eine glatte Spanndecke mit Licht: Wir planen, fertigen und montieren für Gewerbe- und Wohnräume – termingerecht und zum Festpreis.</p>
+    <div class="hero-cta">
+      <a class="btn btn-p" href="#kontakt" data-i18n="hero.cta1">Kostenloses Angebot</a>
+      <a class="btn btn-g" href="#bereiche" data-i18n="hero.cta2">Unsere Bereiche</a>
+    </div>
+    <div class="trust">
+      <div><b>20+</b><span data-i18n="hero.t1">Jahre Erfahrung</span></div>
+      <div><b>2</b><span data-i18n="hero.t2">Fachbereiche, ein Betrieb</span></div>
+      <div><b>100%</b><span data-i18n="hero.t3">Festpreis</span></div>
+      <div><b>1</b><span data-i18n="hero.t4">Ansprechpartner für alles</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== O FIRMIE ===== -->
+<section id="onas">
+  <div class="wrap split">
+    <div>
+      <span class="eyebrow" data-i18n="about.eyebrow">Über uns</span>
+      <h2 data-i18n="about.h2">Ein Betrieb, zwei starke Kompetenzen</h2>
+      <p class="lead" data-i18n="about.p1">MUSTERAUSBAU ist ein Handwerksbetrieb für modernen Innenausbau. Wir verbinden klassischen Trockenbau und durchdachte Akustiklösungen mit der Spanndecken-Technik – und finden damit für fast jede Decken- und Wandaufgabe die passende Lösung, geplant und ausgeführt von einem eingespielten Team.</p>
+      <ul class="checks">
+        <li><span><b data-i18n="about.l1b">Ein Ansprechpartner:</b> <span data-i18n="about.l1">von der ersten Beratung bis zur Übergabe – ohne Reibungsverluste zwischen Gewerken.</span></span></li>
+        <li><span><b data-i18n="about.l2b">Zwei Fachbereiche:</b> <span data-i18n="about.l2">Trockenbau &amp; Akustikbau sowie Spanndecken – bei Bedarf auch kombiniert in einem Projekt.</span></span></li>
+        <li><span><b data-i18n="about.l3b">Privat &amp; Gewerbe:</b> <span data-i18n="about.l3">Wohnungen, Büros, Praxen, Läden und öffentliche Gebäude.</span></span></li>
+        <li><span><b data-i18n="about.l4b">Festpreis &amp; Termintreue:</b> <span data-i18n="about.l4">verbindliche Angebote nach Aufmaß, keine versteckten Kosten.</span></span></li>
+      </ul>
+    </div>
+    <div class="ph c7"><i></i><s data-i18n="ph.badge">Zdjęcie przykładowe</s><em data-i18n="about.img">Unser Team bei der Montage vor Ort</em></div>
+  </div>
+</section>
+
+<!-- ===== BEREICHE (KAFLE) ===== -->
+<section id="bereiche" class="alt">
+  <div class="wrap">
+    <div class="sechead center">
+      <span class="eyebrow" data-i18n="pil.eyebrow">Unsere Bereiche</span>
+      <h2 data-i18n="pil.h2">Wählen Sie Ihren Bereich</h2>
+      <p class="lead" data-i18n="pil.p">Zwei Fachrichtungen, ein Betrieb. Details, Leistungen und Beispiele finden Sie auf der jeweiligen Seite.</p>
+    </div>
+    <div class="pillars">
+      <a class="pillar" href="spanndecken.html">
+        <span class="tag" data-i18n="pil.1tag">Spanndecken</span>
+        <h3 data-i18n="pil.1h">Spanndecken</h3>
+        <p data-i18n="pil.1p">Nahtlose Decken in Matt, Satin oder Hochglanz, mit integriertem Licht oder als Sternenhimmel – Montage in einem Tag, ohne Staub.</p>
+        <span class="more" data-i18n="pil.1cta">Zum Bereich Spanndecken <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
+      <a class="pillar" href="trockenbau-akustikbau.html">
+        <span class="tag" data-i18n="pil.2tag">Trockenbau &amp; Akustikbau</span>
+        <h3 data-i18n="pil.2h">Trockenbau &amp; Akustikbau</h3>
+        <p data-i18n="pil.2p">Trennwände, Vorsatzschalen und abgehängte Decken sowie Akustikdecken und -paneele für weniger Nachhall und mehr Ruhe.</p>
+        <span class="more" data-i18n="pil.2cta">Zum Bereich Trockenbau &amp; Akustikbau <svg viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ZALETY ===== -->
+<section id="vorteile">
+  <div class="wrap">
+    <div class="sechead center">
+      <span class="eyebrow" data-i18n="adv.eyebrow">Warum wir</span>
+      <h2 data-i18n="adv.h2">Was uns von anderen Betrieben unterscheidet</h2>
+      <p class="lead" data-i18n="adv.p">Ein Betrieb für Wände, Decken und Akustik – geplant, gefertigt und montiert aus einer Hand.</p>
+    </div>
+    <div class="grid g4">
+      <div class="card"><h3 data-i18n="adv.1h">Ein Ansprechpartner</h3><p data-i18n="adv.1p">Beratung, Planung, Fertigung und Montage aus einer Hand – für beide Fachbereiche.</p></div>
+      <div class="card"><h3 data-i18n="adv.2h">Festpreisgarantie</h3><p data-i18n="adv.2p">Nach Aufmaß erhalten Sie einen verbindlichen Preis. Keine Nachträge, keine Überraschungen.</p></div>
+      <div class="card"><h3 data-i18n="adv.3h">Saubere Ausführung</h3><p data-i18n="adv.3p">Staubarmes Arbeiten, sorgfältiger Schutz von Möbeln und Böden, Baustelle wird besenrein übergeben.</p></div>
+      <div class="card"><h3 data-i18n="adv.4h">Termintreue</h3><p data-i18n="adv.4p">Verbindliche Termine, realistische Zeitpläne – auch bei laufendem Betrieb in Gewerbeflächen.</p></div>
+      <div class="card"><h3 data-i18n="adv.5h">Geprüfte Systeme</h3><p data-i18n="adv.5p">Materialien und Systeme mit entsprechenden Zulassungen für Brand-, Schall- und Feuchteschutz.</p></div>
+      <div class="card"><h3 data-i18n="adv.6h">Kombinierbare Leistungen</h3><p data-i18n="adv.6p">Trockenbau, Akustik und Spanndecke lassen sich in einem Projekt sinnvoll miteinander verbinden.</p></div>
+      <div class="card"><h3 data-i18n="adv.7h">Beratung vor Ort</h3><p data-i18n="adv.7p">Kostenlose Erstberatung und Aufmaß, damit die Lösung wirklich zum Raum passt.</p></div>
+      <div class="card"><h3 data-i18n="adv.8h">Garantie</h3><p data-i18n="adv.8p">Gewährleistung nach gesetzlichen Fristen, zusätzlich Garantie auf Material und Ausführung.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PRZEBIEG ===== -->
+<section id="ablauf" class="alt">
+  <div class="wrap">
+    <div class="sechead">
+      <span class="eyebrow" data-i18n="prc.eyebrow">Ablauf</span>
+      <h2 data-i18n="prc.h2">Von der Anfrage bis zur Übergabe</h2>
+    </div>
+    <div class="steps">
+      <div class="step"><h3 data-i18n="prc.1h">Anfrage &amp; Beratung</h3><p data-i18n="prc.1p">Sie schildern Ihr Vorhaben, wir beraten kostenlos – bei Bedarf mit Termin vor Ort und Aufmaß.</p></div>
+      <div class="step"><h3 data-i18n="prc.2h">Festpreisangebot</h3><p data-i18n="prc.2p">Sie erhalten ein verbindliches Angebot mit allen Positionen – Material, Montage, Zeitrahmen.</p></div>
+      <div class="step"><h3 data-i18n="prc.3h">Ausführung</h3><p data-i18n="prc.3p">Fertigung und Montage durch unser eigenes Team, mit klarer Baustellenordnung und Sauberkeit.</p></div>
+      <div class="step"><h3 data-i18n="prc.4h">Abnahme &amp; Übergabe</h3><p data-i18n="prc.4p">Gemeinsame Abnahme, Übergabe der Unterlagen und – je nach Leistung – der Garantieurkunde.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section id="faq">
+  <div class="wrap">
+    <div class="sechead center">
+      <span class="eyebrow" data-i18n="faq.eyebrow">FAQ</span>
+      <h2 data-i18n="faq.h2">Häufige Fragen</h2>
+    </div>
+    <div class="faq">
+      <details open><summary data-i18n="faq.1q">Welche Leistungen bieten Sie an?</summary><p data-i18n="faq.1a">Zwei Fachbereiche: Spanndecken sowie Trockenbau &amp; Akustikbau (Trennwände, Vorsatzschalen, abgehängte Decken, Akustikdecken und -paneele). Details finden Sie auf den jeweiligen Bereichsseiten.</p></details>
+      <details><summary data-i18n="faq.2q">In welchem Gebiet sind Sie tätig?</summary><p data-i18n="faq.2a">Im Umkreis von etwa 100 km um unseren Standort, größere Entfernungen nach Absprache – auch für Gewerbeprojekte über mehrere Standorte.</p></details>
+      <details><summary data-i18n="faq.3q">Lassen sich Trockenbau, Akustik und Spanndecke kombinieren?</summary><p data-i18n="faq.3a">Ja. Gerade bei Büro- und Gewerbeprojekten planen wir Wände, Deckensysteme und Akustik häufig gemeinsam – mit einem Ansprechpartner für das gesamte Projekt.</p></details>
+      <details><summary data-i18n="faq.4q">Wie schnell erhalte ich ein Angebot?</summary><p data-i18n="faq.4a">In der Regel innerhalb von 48 Stunden nach Beratung bzw. Aufmaß, mit allen Positionen und einem verbindlichen Festpreis.</p></details>
+      <details><summary data-i18n="faq.5q">Arbeiten Sie auch für Privatkunden?</summary><p data-i18n="faq.5a">Ja, neben Gewerbe- und öffentlichen Projekten übernehmen wir auch Aufträge in Wohnungen und Einfamilienhäusern.</p></details>
+      <details><summary data-i18n="faq.6q">In welchen Sprachen kann ich mit Ihnen kommunizieren?</summary><p data-i18n="faq.6a">Deutsch, Polnisch und Englisch – auch diese Webseite können Sie oben rechts in allen drei Sprachen anzeigen.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- ===== KONTAKT ===== -->
+<section id="kontakt" class="alt">
+  <div class="wrap">
+    <div class="sechead">
+      <span class="eyebrow" data-i18n="con.eyebrow">Kontakt</span>
+      <h2 data-i18n="con.h2">Kostenlose Beratung anfragen</h2>
+      <p class="lead" data-i18n="con.p">Beschreiben Sie kurz Ihr Vorhaben – wir melden uns in der Regel am selben Werktag zurück.</p>
+    </div>
+    <div class="contact">
+      <div class="cinfo">
+        <div class="cline"><div class="ico"><svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a12 12 0 005 5L15 13l5 2v4a1 1 0 01-1 1A16 16 0 014 5a1 1 0 011-1z"/></svg></div><div><div class="k" data-i18n="con.k1">Telefon</div><div class="v"><a href="tel:+490000000000">+49 (0) 000 000 00 00</a><small data-i18n="con.v1">Mo–Fr 8:00–18:00, Sa nach Absprache</small></div></div></div>
+        <div class="cline"><div class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></div><div><div class="k" data-i18n="con.k2">E-Mail</div><div class="v"><a href="mailto:info@musterausbau.de">info@musterausbau.de</a><small data-i18n="con.v2">Antwort in der Regel innerhalb von 24 Stunden</small></div></div></div>
+        <div class="cline"><div class="ico"><svg viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11a7 7 0 10-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></div><div><div class="k" data-i18n="con.k3">Adresse</div><div class="v">Musterstraße 1<small>00000 Musterstadt</small></div></div></div>
+        <div class="cline"><div class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg></div><div><div class="k" data-i18n="con.k4">Einsatzgebiet</div><div class="v" data-i18n="con.v4">Umkreis 100 km<small>Weitere Entfernungen auf Anfrage</small></div></div></div>
+        <div class="map"><p data-i18n="con.map">Hier erscheint später die eingebettete Karte mit dem Firmenstandort (datenschutzkonform erst nach Klick geladen).</p></div>
+      </div>
+      <form id="cform" novalidate>
+        <div class="frow">
+          <label class="f"><span data-i18n="f.name">Name *</span><input type="text" name="name" required></label>
+          <label class="f"><span data-i18n="f.phone">Telefon</span><input type="tel" name="phone"></label>
+        </div>
+        <div class="frow">
+          <label class="f"><span data-i18n="f.mail">E-Mail *</span><input type="email" name="email" required></label>
+          <label class="f"><span data-i18n="f.zip">PLZ / Ort</span><input type="text" name="zip"></label>
+        </div>
+        <div class="frow">
+          <label class="f"><span data-i18n="f.type">Art des Projekts</span>
+            <select name="type">
+              <option data-i18n="f.o1">Spanndecke</option>
+              <option data-i18n="f.o2">Trockenbauwand / Vorsatzschale</option>
+              <option data-i18n="f.o3">Akustikdecke / Schallschutz</option>
+              <option data-i18n="f.o4">Kombination mehrerer Leistungen</option>
+              <option data-i18n="f.o5">Sonstiges</option>
+            </select>
+          </label>
+          <label class="f"><span data-i18n="f.area">Fläche ca. (m²)</span><input type="number" name="area" min="1"></label>
+        </div>
+        <label class="f"><span data-i18n="f.msg">Ihre Nachricht</span><textarea name="message" data-i18n-ph="f.msgph" placeholder="Raumgröße, gewünschte Leistung, Zeitrahmen …"></textarea></label>
+        <label class="cb"><input type="checkbox" name="dsgvo" required><span data-i18n-html="f.dsgvo">Ich habe die <a href="datenschutz.html">Datenschutzerklärung</a> gelesen und stimme der Verarbeitung meiner Daten zur Bearbeitung der Anfrage zu. *</span></label>
+        <button type="submit" class="btn btn-p" data-i18n="f.send">Anfrage absenden</button>
+        <div class="formnote" id="fnote" data-i18n="f.note">Prototyp: Das Formular versendet noch nichts. In der Live-Version geht die Anfrage per E-Mail an den Betrieb.</div>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div class="about">
+        <span class="logo"><span class="mk">MUSTER<em>AUSBAU</em></span></span>
+        <p data-i18n="ft.about">Platzhalter-Firmenprofil: Trockenbau, Akustikbau und Spanndecken für Privat- und Gewerbekunden. Beratung, Fertigung, Montage aus einer Hand.</p>
+      </div>
+      <div><h4 data-i18n="ft.h1">Bereiche</h4><ul>
+        <li><a href="spanndecken.html" data-i18n="nav.span">Spanndecken</a></li>
+        <li><a href="trockenbau-akustikbau.html" data-i18n="nav.tab">Trockenbau &amp; Akustikbau</a></li>
+      </ul></div>
+      <div><h4 data-i18n="ft.h2">Unternehmen</h4><ul>
+        <li><a href="#onas" data-i18n="ft.u1">Über uns</a></li>
+        <li><a href="#bereiche" data-i18n="ft.u2">Bereiche</a></li>
+        <li><a href="#faq" data-i18n="nav.faq">FAQ</a></li>
+        <li><a href="#kontakt" data-i18n="nav.contact">Kontakt</a></li>
+      </ul></div>
+      <div><h4 data-i18n="ft.h3">Rechtliches</h4><ul>
+        <li><a href="impressum.html" data-i18n="ft.r1">Impressum</a></li>
+        <li><a href="datenschutz.html" data-i18n="ft.r2">Datenschutz</a></li>
+        <li><a href="agb.html" data-i18n="ft.r3">AGB</a></li>
+        <li><a href="widerruf.html" data-i18n="ft.r4">Widerrufsbelehrung</a></li>
+      </ul></div>
+    </div>
+    <div class="fbot">
+      <span data-i18n="ft.copy">© 2026 Musterausbau – Platzhalter. Alle Rechte vorbehalten.</span>
+      <span data-i18n="ft.proto">Prototyp – nicht für die Öffentlichkeit bestimmt.</span>
+    </div>
+  </div>
+</footer>
+
+<div id="cookie">
+  <p data-i18n="ck.p">Wir verwenden technisch notwendige Cookies. Externe Dienste wie Karten werden erst nach Ihrer Einwilligung geladen.</p>
+  <div class="row">
+    <button class="btn btn-p" data-ck="all" data-i18n="ck.ok">Alle akzeptieren</button>
+    <button class="btn btn-g" data-ck="min" data-i18n="ck.min">Nur notwendige</button>
+    <a class="btn btn-g" href="datenschutz.html" data-i18n="ck.more">Details</a>
+  </div>
+</div>
+
+<script>
+/* ===== Tłumaczenia PL/EN dla index.html ===== */
+var PL = {
+"doc.title":"Trockenbau, Akustyka i sufity napinane – prototyp",
+"proto.hint":"Wersja testowa – treści, zdjęcia i dane firmy są zastępcze.",
+"logo.sub":"Trockenbau · Akustyka · Sufity",
+"nav.home":"Start","nav.span":"Sufity napinane","nav.tab":"Trockenbau i akustyka","nav.faq":"FAQ","nav.contact":"Kontakt",
+"hdr.telnote":"pn.–pt. 8–18","hdr.cta":"Zapytaj o wycenę",
+
+"hero.eyebrow":"Trockenbau · Akustyka · Sufity napinane",
+"hero.h1":"Ściany, sufity i akustyka – od jednego wykonawcy.",
+"hero.p":"Ścianka działowa, sufit podwieszany, wygłuszenie czy gładki sufit napinany ze światłem – projektujemy, produkujemy i montujemy dla firm i domów, na czas i za stałą cenę.",
+"hero.cta1":"Bezpłatna wycena","hero.cta2":"Nasze obszary",
+"hero.t1":"lat doświadczenia","hero.t2":"obszary, jedna firma","hero.t3":"stała cena","hero.t4":"jeden kontakt do wszystkiego",
+
+"about.eyebrow":"O nas",
+"about.h2":"Jedna firma, dwie mocne specjalizacje",
+"about.p1":"MUSTERAUSBAU to firma rzemieślnicza zajmująca się nowoczesnym wykończeniem wnętrz. Łączymy klasyczny Trockenbau i przemyślane rozwiązania akustyczne z technologią sufitów napinanych – dzięki temu do prawie każdego zadania ściennego czy sufitowego mamy właściwe rozwiązanie, zaprojektowane i wykonane przez jeden zgrany zespół.",
+"about.l1b":"Jeden kontakt:","about.l1":"od pierwszej rozmowy do przekazania obiektu – bez strat na styku branż.",
+"about.l2b":"Dwie specjalizacje:","about.l2":"Trockenbau i akustyka oraz sufity napinane – w razie potrzeby łączone w jednym projekcie.",
+"about.l3b":"Klienci prywatni i firmy:","about.l3":"mieszkania, biura, gabinety, lokale i budynki publiczne.",
+"about.l4b":"Stała cena i terminowość:","about.l4":"wiążące oferty po pomiarze, żadnych skrytych kosztów.",
+"about.img":"Nasz zespół podczas montażu na miejscu",
+"ph.badge":"Zdjęcie przykładowe",
+
+"pil.eyebrow":"Nasze obszary","pil.h2":"Wybierz swój obszar",
+"pil.p":"Dwie specjalizacje, jedna firma. Szczegóły, usługi i przykłady znajdziesz na stronie danego obszaru.",
+"pil.1tag":"Sufity napinane","pil.1h":"Sufity napinane","pil.1p":"Bezspoinowe sufity w macie, satynie lub lakierze, z wbudowanym światłem albo gwiaździstym niebem – montaż w jeden dzień, bez kurzu.","pil.1cta":"Zobacz sufity napinane →",
+"pil.2tag":"Trockenbau i akustyka","pil.2h":"Trockenbau i akustyka","pil.2p":"Ścianki działowe, okładziny i sufity podwieszane oraz sufity i panele akustyczne, które ograniczają pogłos i dają więcej spokoju.","pil.2cta":"Zobacz Trockenbau i akustykę →",
+
+"adv.eyebrow":"Dlaczego my","adv.h2":"Co nas odróżnia od innych firm",
+"adv.p":"Jedna firma dla ścian, sufitów i akustyki – projekt, produkcja i montaż od jednego wykonawcy.",
+"adv.1h":"Jeden kontakt","adv.1p":"Doradztwo, projekt, produkcja i montaż od jednego wykonawcy – dla obu specjalizacji.",
+"adv.2h":"Gwarancja stałej ceny","adv.2p":"Po pomiarze otrzymujesz wiążącą cenę. Bez aneksów i niespodzianek.",
+"adv.3h":"Czysta realizacja","adv.3p":"Praca ograniczająca kurz, dokładna ochrona mebli i podłóg, plac budowy przekazywany zamieciony.",
+"adv.4h":"Terminowość","adv.4p":"Wiążące terminy, realistyczne harmonogramy – także w działających obiektach firmowych.",
+"adv.5h":"Sprawdzone systemy","adv.5p":"Materiały i systemy z odpowiednimi atestami ogniowymi, akustycznymi i przeciwwilgociowymi.",
+"adv.6h":"Usługi do łączenia","adv.6p":"Trockenbau, akustyka i sufit napinany można sensownie połączyć w jednym projekcie.",
+"adv.7h":"Doradztwo na miejscu","adv.7p":"Bezpłatna pierwsza konsultacja i pomiar, żeby rozwiązanie faktycznie pasowało do pomieszczenia.",
+"adv.8h":"Gwarancja","adv.8p":"Rękojmia zgodnie z przepisami, dodatkowo gwarancja na materiał i wykonanie.",
+
+"prc.eyebrow":"Przebieg","prc.h2":"Od zapytania do przekazania obiektu",
+"prc.1h":"Zapytanie i konsultacja","prc.1p":"Opisujesz swój projekt, my bezpłatnie radzimy – w razie potrzeby z wizytą na miejscu i pomiarem.",
+"prc.2h":"Oferta w stałej cenie","prc.2p":"Otrzymujesz wiążącą ofertę ze wszystkimi pozycjami – materiał, montaż, harmonogram.",
+"prc.3h":"Realizacja","prc.3p":"Produkcja i montaż przez nasz własny zespół, z jasnym porządkiem na budowie i czystością.",
+"prc.4h":"Odbiór i przekazanie","prc.4p":"Wspólny odbiór, przekazanie dokumentacji i – zależnie od usługi – karty gwarancyjnej.",
+
+"faq.eyebrow":"FAQ","faq.h2":"Najczęstsze pytania",
+"faq.1q":"Jakie usługi oferujecie?","faq.1a":"Dwie specjalizacje: sufity napinane oraz Trockenbau i akustyka (ścianki działowe, okładziny, sufity podwieszane, sufity i panele akustyczne). Szczegóły na stronach poszczególnych obszarów.",
+"faq.2q":"Na jakim obszarze działacie?","faq.2a":"W promieniu ok. 100 km od naszej siedziby, większe odległości po uzgodnieniu – również przy projektach firmowych w wielu lokalizacjach.",
+"faq.3q":"Czy można połączyć Trockenbau, akustykę i sufit napinany?","faq.3a":"Tak. Zwłaszcza w projektach biurowych i firmowych często planujemy ściany, systemy sufitowe i akustykę wspólnie – z jednym kontaktem dla całego projektu.",
+"faq.4q":"Jak szybko dostanę ofertę?","faq.4a":"Zwykle w ciągu 48 godzin po konsultacji lub pomiarze, ze wszystkimi pozycjami i wiążącą stałą ceną.",
+"faq.5q":"Czy realizujecie zlecenia dla klientów prywatnych?","faq.5a":"Tak, obok projektów firmowych i publicznych podejmujemy się też zleceń w mieszkaniach i domach jednorodzinnych.",
+"faq.6q":"W jakich językach mogę się z Wami kontaktować?","faq.6a":"Po niemiecku, polsku i angielsku – tę stronę można też wyświetlić w tych trzech językach, przełącznik jest w prawym górnym rogu.",
+
+"con.eyebrow":"Kontakt","con.h2":"Zamów bezpłatną konsultację",
+"con.p":"Opisz krótko swój projekt – zwykle odpowiadamy jeszcze tego samego dnia roboczego.",
+"con.k1":"Telefon","con.v1":"pn.–pt. 8:00–18:00, sob. po uzgodnieniu",
+"con.k2":"E-mail","con.v2":"Odpowiedź zwykle w ciągu 24 godzin",
+"con.k3":"Adres","con.k4":"Obszar działania",
+"con.v4":"Promień 100 km<small>Dalsze odległości po uzgodnieniu</small>",
+"con.map":"Tutaj pojawi się osadzona mapa z lokalizacją firmy (ładowana zgodnie z RODO dopiero po kliknięciu).",
+
+"f.name":"Imię i nazwisko *","f.phone":"Telefon","f.mail":"E-mail *","f.zip":"Kod pocztowy / miasto",
+"f.type":"Rodzaj projektu","f.o1":"Sufit napinany","f.o2":"Ścianka działowa / okładzina","f.o3":"Sufit akustyczny / wygłuszenie","f.o4":"Połączenie kilku usług","f.o5":"Inne",
+"f.area":"Powierzchnia ok. (m²)","f.msg":"Twoja wiadomość",
+"f.msgph":"Wielkość pomieszczenia, oczekiwana usługa, termin …",
+"f.dsgvo":"Zapoznałem/am się z <a href=\"datenschutz.html\">polityką prywatności</a> i wyrażam zgodę na przetwarzanie moich danych w celu obsługi zapytania. *",
+"f.send":"Wyślij zapytanie",
+"f.note":"Prototyp: formularz jeszcze nic nie wysyła. W wersji produkcyjnej zapytanie trafi e-mailem do firmy.",
+
+"ft.about":"Zastępczy profil firmy: Trockenbau, akustyka i sufity napinane dla klientów prywatnych i firm. Doradztwo, produkcja i montaż od jednego wykonawcy.",
+"ft.h1":"Obszary","ft.h2":"Firma","ft.h3":"Informacje prawne",
+"ft.u1":"O nas","ft.u2":"Obszary",
+"ft.r1":"Impressum","ft.r2":"Polityka prywatności","ft.r3":"Regulamin (AGB)","ft.r4":"Pouczenie o odstąpieniu",
+"ft.copy":"© 2026 Musterausbau – nazwa zastępcza. Wszelkie prawa zastrzeżone.",
+"ft.proto":"Prototyp – nieprzeznaczony do publicznego udostępnienia.",
+
+"ck.p":"Używamy wyłącznie plików cookie niezbędnych technicznie. Usługi zewnętrzne, takie jak mapy, ładowane są dopiero po wyrażeniu zgody.",
+"ck.ok":"Akceptuję wszystkie","ck.min":"Tylko niezbędne","ck.more":"Szczegóły"
+};
+
+var EN = {
+"doc.title":"Drylining, acoustics &amp; stretch ceilings – prototype",
+"proto.hint":"Test version – content, photos and company details are placeholders.",
+"logo.sub":"Drylining · Acoustics · Ceilings",
+"nav.home":"Home","nav.span":"Stretch ceilings","nav.tab":"Drylining &amp; acoustics","nav.faq":"FAQ","nav.contact":"Contact",
+"hdr.telnote":"Mon–Fri 8am–6pm","hdr.cta":"Request a quote",
+
+"hero.eyebrow":"Drylining · Acoustics · Stretch ceilings",
+"hero.h1":"Walls, ceilings and acoustics – from one team.",
+"hero.p":"A partition wall, a suspended ceiling, sound insulation or a seamless stretch ceiling with lighting: we plan, manufacture and install for commercial and residential spaces – on schedule and at a fixed price.",
+"hero.cta1":"Free quote","hero.cta2":"Our fields",
+"hero.t1":"years of experience","hero.t2":"fields, one company","hero.t3":"fixed price","hero.t4":"one contact for everything",
+
+"about.eyebrow":"About us",
+"about.h2":"One company, two strong specialities",
+"about.p1":"MUSTERAUSBAU is a trade business for modern interior fit-out. We combine classic drylining and thoughtful acoustic solutions with stretch-ceiling technology – so we have the right answer for almost any wall or ceiling task, planned and carried out by one experienced team.",
+"about.l1b":"One point of contact:","about.l1":"from the first conversation to handover – no friction between trades.",
+"about.l2b":"Two specialities:","about.l2":"drylining &amp; acoustics as well as stretch ceilings – combined within one project when useful.",
+"about.l3b":"Private &amp; commercial:","about.l3":"flats, offices, practices, shops and public buildings.",
+"about.l4b":"Fixed price &amp; reliable schedules:","about.l4":"binding quotes after measurement, no hidden costs.",
+"about.img":"Our team during on-site installation",
+"ph.badge":"Sample photo",
+
+"pil.eyebrow":"Our fields","pil.h2":"Choose your field",
+"pil.p":"Two specialities, one company. See the dedicated page for details, services and examples.",
+"pil.1tag":"Stretch ceilings","pil.1h":"Stretch ceilings","pil.1p":"Seamless ceilings in matte, satin or gloss, with integrated lighting or a starlit-sky effect – installed in a single day, without dust.","pil.1cta":"See stretch ceilings →",
+"pil.2tag":"Drylining &amp; acoustics","pil.2h":"Drylining &amp; acoustics","pil.2p":"Partition walls, facing walls and suspended ceilings, plus acoustic ceilings and panels that cut reverberation and add calm.","pil.2cta":"See drylining &amp; acoustics →",
+
+"adv.eyebrow":"Why us","adv.h2":"What sets us apart from other trade businesses",
+"adv.p":"One company for walls, ceilings and acoustics – planned, made and installed by a single team.",
+"adv.1h":"One point of contact","adv.1p":"Advice, planning, manufacturing and installation from one team – for both specialities.",
+"adv.2h":"Fixed-price guarantee","adv.2p":"After measurement you get a binding price. No add-ons, no surprises.",
+"adv.3h":"Clean execution","adv.3p":"Low-dust working methods, careful protection of furniture and floors, site left swept clean.",
+"adv.4h":"Reliable scheduling","adv.4p":"Binding deadlines and realistic timelines – even in premises that stay in operation.",
+"adv.5h":"Tested systems","adv.5p":"Materials and systems with the relevant approvals for fire, sound and moisture protection.",
+"adv.6h":"Services that combine","adv.6p":"Drylining, acoustics and stretch ceilings can be sensibly combined within one project.",
+"adv.7h":"On-site advice","adv.7p":"Free initial consultation and measurement, so the solution actually fits the room.",
+"adv.8h":"Warranty","adv.8p":"Statutory warranty periods, plus an additional guarantee on material and workmanship.",
+
+"prc.eyebrow":"Process","prc.h2":"From enquiry to handover",
+"prc.1h":"Enquiry &amp; consultation","prc.1p":"You describe your project, we advise for free – with an on-site visit and measurement if needed.",
+"prc.2h":"Fixed-price quote","prc.2p":"You receive a binding quote covering every item – material, installation, schedule.",
+"prc.3h":"Execution","prc.3p":"Manufacturing and installation by our own team, with clear site discipline and cleanliness.",
+"prc.4h":"Handover","prc.4p":"Joint sign-off, handover of documents and, depending on the service, the warranty certificate.",
+
+"faq.eyebrow":"FAQ","faq.h2":"Frequently asked questions",
+"faq.1q":"What services do you offer?","faq.1a":"Two specialities: stretch ceilings, and drylining &amp; acoustics (partition walls, facing walls, suspended ceilings, acoustic ceilings and panels). See the dedicated pages for details.",
+"faq.2q":"What area do you work in?","faq.2a":"Roughly within 100 km of our base, further afield by arrangement – including multi-site commercial projects.",
+"faq.3q":"Can drylining, acoustics and stretch ceilings be combined?","faq.3a":"Yes. Especially in office and commercial projects we often plan walls, ceiling systems and acoustics together, with one contact for the whole project.",
+"faq.4q":"How quickly do I get a quote?","faq.4a":"Usually within 48 hours of the consultation or measurement, covering every item at a binding fixed price.",
+"faq.5q":"Do you also work for private customers?","faq.5a":"Yes, alongside commercial and public projects we also take on jobs in flats and houses.",
+"faq.6q":"What languages can I use to contact you?","faq.6a":"German, Polish and English – you can also view this site in all three languages using the switch in the top right.",
+
+"con.eyebrow":"Contact","con.h2":"Request a free consultation",
+"con.p":"Briefly describe your project – we usually reply the same working day.",
+"con.k1":"Phone","con.v1":"Mon–Fri 8am–6pm, Saturday by arrangement",
+"con.k2":"Email","con.v2":"Reply usually within 24 hours",
+"con.k3":"Address","con.k4":"Service area",
+"con.v4":"100 km radius<small>Further distances by arrangement</small>",
+"con.map":"An embedded map with the company location will appear here (loaded only after consent, in line with GDPR).",
+
+"f.name":"Name *","f.phone":"Phone","f.mail":"Email *","f.zip":"Postcode / city",
+"f.type":"Type of project","f.o1":"Stretch ceiling","f.o2":"Partition / facing wall","f.o3":"Acoustic ceiling / sound insulation","f.o4":"Combination of several services","f.o5":"Other",
+"f.area":"Area approx. (m²)","f.msg":"Your message",
+"f.msgph":"Room size, service you need, timeframe …",
+"f.dsgvo":"I have read the <a href=\"datenschutz.html\">privacy policy</a> and agree that my data may be processed to handle my enquiry. *",
+"f.send":"Send enquiry",
+"f.note":"Prototype: this form does not send anything yet. In the live version the enquiry is emailed to the company.",
+
+"ft.about":"Placeholder company profile: drylining, acoustics and stretch ceilings for private and commercial customers. Advice, manufacturing and installation from one team.",
+"ft.h1":"Fields","ft.h2":"Company","ft.h3":"Legal",
+"ft.u1":"About us","ft.u2":"Fields",
+"ft.r1":"Legal notice","ft.r2":"Privacy policy","ft.r3":"Terms &amp; conditions","ft.r4":"Right of withdrawal",
+"ft.copy":"© 2026 Musterausbau – placeholder name. All rights reserved.",
+"ft.proto":"Prototype – not intended for public access.",
+
+"ck.p":"We only use technically necessary cookies. External services such as maps are loaded only after you consent.",
+"ck.ok":"Accept all","ck.min":"Necessary only","ck.more":"Details"
+};
+</script>
+<script src="assets/site.js"></script>
+</body>
+</html>

@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="de" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title data-i18n="doc.title">Trockenbau &amp; Akustikbau – Prototyp</title>
+<meta name="description" content="Prototyp einer Webseite für Trockenbau- und Akustikbau-Leistungen.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<div id="protobar">
+  <b>PROTOTYP</b>
+  <div class="grp"><span class="lbl">Sprache / Język / Language:</span>
+    <button data-lang-btn="de" aria-pressed="true">DE</button>
+    <button data-lang-btn="pl" aria-pressed="false">PL</button>
+    <button data-lang-btn="en" aria-pressed="false">EN</button>
+  </div>
+  <span class="hint" data-i18n="proto.hint">Testversion – Inhalte, Bilder und Firmendaten sind Platzhalter.</span>
+</div>
+
+<header id="hdr">
+  <div class="wrap nav">
+    <a href="index.html" class="logo">
+      <span class="mk">MUSTER<em>AUSBAU</em></span>
+      <span class="sub" data-i18n="logo.sub">Trockenbau · Akustik · Decken</span>
+    </a>
+    <nav id="menu">
+      <a href="index.html" data-i18n="nav.home">Start</a>
+      <a href="spanndecken.html" data-i18n="nav.span">Spanndecken</a>
+      <a href="trockenbau-akustikbau.html" aria-current="page" data-i18n="nav.tab">Trockenbau &amp; Akustikbau</a>
+      <a href="#faq" data-i18n="nav.faq">FAQ</a>
+      <a href="#kontakt" data-i18n="nav.contact">Kontakt</a>
+    </nav>
+    <a class="tel" href="tel:+490000000000">+49 (0) 000 000 00 00<small data-i18n="hdr.telnote">Mo–Fr 8–18 Uhr</small></a>
+    <a class="btn btn-p" href="#kontakt" data-i18n="hdr.cta">Angebot anfragen</a>
+    <button class="burger" id="burger" aria-label="Menü">☰</button>
+  </div>
+</header>
+
+<main id="site">
+<span id="top"></span>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="wrap">
+    <span class="eyebrow" data-i18n="hero.eyebrow">Trockenbau &amp; Akustikbau · Wände, Decken, Ruhe</span>
+    <h1 data-i18n="hero.h1">Wände und Decken, die halten, dämmen und ruhig machen.</h1>
+    <p data-i18n="hero.p">Trennwände, Vorsatzschalen, abgehängte Decken und durchdachte Akustiklösungen – wir planen, bauen und montieren für Büros, Praxen, Läden und Wohnräume. Nach Aufmaß, zum Festpreis.</p>
+    <div class="hero-cta">
+      <a class="btn btn-p" href="#kontakt" data-i18n="hero.cta1">Kostenloses Angebot</a>
+      <a class="btn btn-g" href="#leistungen" data-i18n="hero.cta2">Leistungen ansehen</a>
+    </div>
+    <div class="trust">
+      <div><b>48h</b><span data-i18n="hero.t1">bis zum Festpreisangebot</span></div>
+      <div><b>−60%</b><span data-i18n="hero.t2">Nachhall möglich</span></div>
+      <div><b>B1</b><span data-i18n="hero.t3">Brandschutzklasse der Materialien</span></div>
+      <div><b>100%</b><span data-i18n="hero.t4">Festpreis</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TECHNOLOGIA ===== -->
+<section id="technologie">
+  <div class="wrap split">
+    <div>
+      <span class="eyebrow" data-i18n="tech.eyebrow">Trockenbau &amp; Akustik</span>
+      <h2 data-i18n="tech.h2">Wie wir Wände, Decken und Ruhe gemeinsam planen</h2>
+      <p class="lead" data-i18n="tech.p1">Trockenbau und Akustikbau gehören für uns zusammen: Eine Ständerwand entscheidet über den Grundriss, eine abgehängte Decke über Haustechnik und Lichtplanung, und die Akustik darüber, ob ein Raum als angenehm empfunden wird. Wir planen alle drei Ebenen gemeinsam, damit am Ende nichts nachgebessert werden muss.</p>
+      <ul class="checks">
+        <li><span><b data-i18n="tech.l1b">Ständerwerk &amp; Beplankung:</b> <span data-i18n="tech.l1">Metallständerwerk mit Gipskarton-, Gipsfaser- oder speziellen Akustikplatten – je nach Anforderung an Statik, Brand- und Schallschutz.</span></span></li>
+        <li><span><b data-i18n="tech.l2b">Deckensysteme:</b> <span data-i18n="tech.l2">Abgehängte GK-Decken, Rasterdecken und freihängende Deckensegel für Haustechnik, Beleuchtung und Akustik in einem System.</span></span></li>
+        <li><span><b data-i18n="tech.l3b">Akustikplanung:</b> <span data-i18n="tech.l3">Berechnung der Nachhallzeit und gezielte Auswahl von Absorbern, damit Sprache verständlich bleibt und sich Lärm nicht aufsummiert.</span></span></li>
+        <li><span><b data-i18n="tech.l4b">Brand- &amp; Schallschutz:</b> <span data-i18n="tech.l4">Geprüfte Systeme nach den einschlägigen Normen, dokumentiert und nachweisbar für die Bauabnahme.</span></span></li>
+      </ul>
+    </div>
+    <div class="ph c4"><i></i><s data-i18n="ph.badge">Musterbild</s><em data-i18n="tech.img">Montage einer Ständerwand mit Akustikdämmung</em></div>
+  </div>
+</section>
+
+<!-- ===== USŁUGI ===== -->
+<section id="leistungen" class="alt">
+  <div class="wrap">
+    <div class="sechead">
+      <span class="eyebrow" data-i18n="srv.eyebrow">Leistungen</span>
+      <h2 data-i18n="srv.h2">Was wir bauen</h2>
+      <p class="lead" data-i18n="srv.p">Von der einfachen Trennwand bis zur akustisch geplanten Deckenlösung – alles aus einer Hand.</p>
+    </div>
+    <div class="grid g3">
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24"><path d="M8 3v18M16 3v18M4 8h16M4 16h16"/></svg></div><h3 data-i18n="srv.1h">Trockenbauwände</h3><p data-i18n="srv.1p">Ständerwände, Trennwände und Vorsatzschalen – frei planbar, auch mit Glaselementen oder Türen, für Büros, Praxen und Wohnungen.</p></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24"><path d="M12 3l9 5-9 5-9-5 9-5zM3 13l9 5 9-5"/></svg></div><h3 data-i18n="srv.2h">Vorsatzschalen &amp; Verkleidungen</h3><p data-i18n="srv.2p">Verkleiden von Rohren, Leitungen und unebenen Bestandswänden, inklusive Dämmung für besseren Schall- und Wärmeschutz.</p></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24"><path d="M3 4h18v16H3V4zM3 10h18M3 16h18M9 4v16M15 4v16"/></svg></div><h3 data-i18n="srv.3h">Unterdecken &amp; GK-Decken</h3><p data-i18n="srv.3p">Abgehängte Gipskarton- und Rasterdecken für Haustechnik, Beleuchtung und eine ebene, saubere Deckenfläche.</p></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24"><path d="M12 3l7 3v6c0 5-3.5 8-7 9-3.5-1-7-4-7-9V6l7-3z"/></svg></div><h3 data-i18n="srv.4h">Brand- &amp; Schallschutz</h3><p data-i18n="srv.4p">Geprüfte Trockenbausysteme für Flurwände, Treppenhäuser und Brandabschnitte nach den geforderten Klassifizierungen.</p></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24"><path d="M4 12a8 8 0 0116 0M7 12a5 5 0 0110 0M10 12a2 2 0 014 0"/></svg></div><h3 data-i18n="srv.5h">Akustikdecken &amp; Wandpaneele</h3><p data-i18n="srv.5p">Mikroperforierte oder gelochte Akustikpaneele an Wand und Decke senken den Nachhall in Büros, Restaurants und Klassenzimmern.</p></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24"><path d="M4 4v4M9 4v7M14 4v4M19 4v7"/></svg></div><h3 data-i18n="srv.6h">Deckensegel &amp; Baffeln</h3><p data-i18n="srv.6p">Freihängende Akustikelemente für offene Räume und Großraumbüros, wo eine geschlossene Unterdecke nicht möglich oder gewünscht ist.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ZALETY ===== -->
+<section id="vorteile">
+  <div class="wrap">
+    <div class="sechead center">
+      <span class="eyebrow" data-i18n="adv.eyebrow">Vorteile</span>
+      <h2 data-i18n="adv.h2">Warum Trockenbau &amp; Akustikbau aus einer Hand</h2>
+      <p class="lead" data-i18n="adv.p">Wände, Decken und Akustik greifen ineinander – wir planen sie deshalb auch gemeinsam.</p>
+    </div>
+    <div class="grid g4">
+      <div class="card"><h3 data-i18n="adv.1h">Flexible Raumaufteilung</h3><p data-i18n="adv.1p">Wände lassen sich verschieben oder ergänzen, ohne in die Statik einzugreifen – ideal bei wachsenden Teams oder neuen Nutzungskonzepten.</p></div>
+      <div class="card"><h3 data-i18n="adv.2h">Weniger Nachhall, mehr Ruhe</h3><p data-i18n="adv.2p">Gezielt platzierte Akustikflächen senken den Geräuschpegel spürbar, ohne dass der Raum steril wirkt.</p></div>
+      <div class="card"><h3 data-i18n="adv.3h">Geprüfter Brandschutz</h3><p data-i18n="adv.3p">Systeme mit Zulassung für die jeweils geforderte Feuerwiderstandsklasse, inklusive Dokumentation für die Bauabnahme.</p></div>
+      <div class="card"><h3 data-i18n="adv.4h">Saubere Baustelle</h3><p data-i18n="adv.4p">Staubarme Verarbeitung, Schutz von Böden und Mobiliar, Arbeiten auch bei laufendem Betrieb möglich.</p></div>
+      <div class="card"><h3 data-i18n="adv.5h">Integrierte Haustechnik</h3><p data-i18n="adv.5p">Lüftung, Elektrik und Sprinkleranlagen lassen sich unsichtbar in Wand und Decke integrieren.</p></div>
+      <div class="card"><h3 data-i18n="adv.6h">Kurze Bauzeiten</h3><p data-i18n="adv.6p">Trockenbau kommt ohne lange Trocknungszeiten aus – Räume sind schneller wieder nutzbar als im Massivbau.</p></div>
+      <div class="card"><h3 data-i18n="adv.7h">Individuelle Akustiklösungen</h3><p data-i18n="adv.7p">Von unauffälligen Deckenpaneelen bis zu gestalterischen Deckensegeln – Akustik und Design schließen sich nicht aus.</p></div>
+      <div class="card"><h3 data-i18n="adv.8h">Festpreis nach Aufmaß</h3><p data-i18n="adv.8p">Verbindliches Angebot nach Ortsbesichtigung, keine versteckten Kosten.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== GALERIA ===== -->
+<section id="galerie" class="alt">
+  <div class="wrap">
+    <div class="sechead">
+      <span class="eyebrow" data-i18n="gal.eyebrow">Galerie</span>
+      <h2 data-i18n="gal.h2">Ausgeführte Projekte</h2>
+      <p class="lead" data-i18n="gal.p">Platzhalter-Kacheln. Sobald Ihre Referenzfotos vorliegen, werden sie hier eins zu eins eingesetzt.</p>
+    </div>
+    <div class="gal">
+      <div class="ph c4"><i></i><s data-i18n="ph.badge">Musterbild</s><em data-i18n="gal.1">Büro · Trennwand mit Glaselement</em></div>
+      <div class="ph c1"><i></i><s data-i18n="ph.badge">Musterbild</s><em data-i18n="gal.2">Konferenzraum · weiße Akustikdecke</em></div>
+      <div class="ph c6"><i></i><s data-i18n="ph.badge">Musterbild</s><em data-i18n="gal.3">Flur · Vorsatzschale mit Sanitäranschlüssen</em></div>
+      <div class="ph c5"><i></i><s data-i18n="ph.badge">Musterbild</s><em data-i18n="gal.4">Kantine · freihängende Deckensegel</em></div>
+      <div class="ph c7"><i></i><s data-i18n="ph.badge">Musterbild</s><em data-i18n="gal.5">Treppenhaus · Brandschutzwand F90</em></div>
+      <div class="ph c3"><i></i><s data-i18n="ph.badge">Musterbild</s><em data-i18n="gal.6">Großraumbüro · GK-Unterdecke mit Einbauleuchten</em></div>
+      <div class="ph c8"><i></i><s data-i18n="ph.badge">Musterbild</s><em data-i18n="gal.7">Praxis · Akustikpaneele an der Wand</em></div>
+      <div class="ph c2"><i></i><s data-i18n="ph.badge">Musterbild</s><em data-i18n="gal.8">Ladenlokal · Trockenbauwand mit Durchreiche</em></div>
+      <div class="ph c9"><i></i><s data-i18n="ph.badge">Musterbild</s><em data-i18n="gal.9">Altbauwohnung · Sanierung von Wand und Decke</em></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROCES ===== -->
+<section id="ablauf">
+  <div class="wrap">
+    <div class="sechead">
+      <span class="eyebrow" data-i18n="prc.eyebrow">Ablauf</span>
+      <h2 data-i18n="prc.h2">Von der Anfrage bis zur Übergabe</h2>
+    </div>
+    <div class="steps">
+      <div class="step"><h3 data-i18n="prc.1h">Bedarfsanalyse &amp; Beratung</h3><p data-i18n="prc.1p">Wir klären Nutzung, Statik, Brandschutzanforderungen und – falls relevant – die gewünschte Raumakustik.</p></div>
+      <div class="step"><h3 data-i18n="prc.2h">Planung &amp; Angebot</h3><p data-i18n="prc.2p">Grundrisse, Deckenspiegel und Materialwahl, anschließend ein verbindliches Festpreisangebot.</p></div>
+      <div class="step"><h3 data-i18n="prc.3h">Ausführung</h3><p data-i18n="prc.3p">Ständerwerk, Beplankung, Deckensysteme und Akustikelemente – termingerecht, mit laufender Qualitätskontrolle.</p></div>
+      <div class="step"><h3 data-i18n="prc.4h">Abnahme &amp; Übergabe</h3><p data-i18n="prc.4p">Gemeinsame Abnahme inklusive Dokumentation der Brand- und Schallschutznachweise.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section id="faq" class="alt">
+  <div class="wrap">
+    <div class="sechead center">
+      <span class="eyebrow" data-i18n="faq.eyebrow">FAQ</span>
+      <h2 data-i18n="faq.h2">Häufige Fragen</h2>
+    </div>
+    <div class="faq">
+      <details open><summary data-i18n="faq.1q">Was ist der Unterschied zwischen Trockenbau und Massivbau?</summary><p data-i18n="faq.1a">Trockenbau verwendet Ständerwerk und Plattenmaterial statt Mauerwerk oder Beton. Die Wände sind leichter, schneller montiert und ohne lange Trocknungszeiten nutzbar – bei vergleichbarem Schall- und Brandschutz durch entsprechende Systemaufbauten.</p></details>
+      <details><summary data-i18n="faq.2q">Wie lange dauert der Einbau einer Trockenbauwand?</summary><p data-i18n="faq.2a">Für einen durchschnittlichen Büroraum meist ein bis drei Arbeitstage, abhängig von Länge, Höhe und der Anzahl der Durchdringungen für Technik und Türen.</p></details>
+      <details><summary data-i18n="faq.3q">Welche Schallschutzwerte sind möglich?</summary><p data-i18n="faq.3a">Je nach Wandaufbau, Beplankung und Dämmung erreichen wir unterschiedliche Schalldämmwerte – wir beraten anhand der Nutzung, welcher Aufbau notwendig ist.</p></details>
+      <details><summary data-i18n="faq.4q">Was kostet eine Akustikdecke?</summary><p data-i18n="faq.4a">Der Preis hängt von Fläche, Absorptionsklasse, Optik und Deckenhöhe ab. Nach einer kurzen Bestandsaufnahme erhalten Sie ein verbindliches Angebot.</p></details>
+      <details><summary data-i18n="faq.5q">Sind Ihre Systeme brandschutzgeprüft?</summary><p data-i18n="faq.5a">Ja, wir setzen ausschließlich Systeme mit entsprechenden Zulassungen ein und dokumentieren den Aufbau für die Bauabnahme.</p></details>
+      <details><summary data-i18n="faq.6q">Arbeiten Sie auch in genutzten Räumen?</summary><p data-i18n="faq.6a">Ja. Wir planen die Ausführung so, dass der laufende Betrieb – etwa in Büros oder Praxen – möglichst wenig beeinträchtigt wird, bei Bedarf auch außerhalb der Geschäftszeiten.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- ===== KONTAKT ===== -->
+<section id="kontakt">
+  <div class="wrap">
+    <div class="sechead">
+      <span class="eyebrow" data-i18n="con.eyebrow">Kontakt</span>
+      <h2 data-i18n="con.h2">Kostenlose Beratung anfragen</h2>
+      <p class="lead" data-i18n="con.p">Beschreiben Sie kurz Ihr Vorhaben – wir melden uns in der Regel am selben Werktag zurück.</p>
+    </div>
+    <div class="contact">
+      <div class="cinfo">
+        <div class="cline"><div class="ico"><svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a12 12 0 005 5L15 13l5 2v4a1 1 0 01-1 1A16 16 0 014 5a1 1 0 011-1z"/></svg></div><div><div class="k" data-i18n="con.k1">Telefon</div><div class="v"><a href="tel:+490000000000">+49 (0) 000 000 00 00</a><small data-i18n="con.v1">Mo–Fr 8:00–18:00, Sa nach Absprache</small></div></div></div>
+        <div class="cline"><div class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></div><div><div class="k" data-i18n="con.k2">E-Mail</div><div class="v"><a href="mailto:info@musterausbau.de">info@musterausbau.de</a><small data-i18n="con.v2">Antwort in der Regel innerhalb von 24 Stunden</small></div></div></div>
+        <div class="cline"><div class="ico"><svg viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11a7 7 0 10-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></div><div><div class="k" data-i18n="con.k3">Adresse</div><div class="v">Musterstraße 1<small>00000 Musterstadt</small></div></div></div>
+        <div class="cline"><div class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg></div><div><div class="k" data-i18n="con.k4">Einsatzgebiet</div><div class="v" data-i18n="con.v4">Umkreis 100 km<small>Weitere Entfernungen auf Anfrage</small></div></div></div>
+        <div class="map"><p data-i18n="con.map">Hier erscheint später die eingebettete Karte mit dem Firmenstandort (datenschutzkonform erst nach Klick geladen).</p></div>
+      </div>
+      <form id="cform" novalidate>
+        <div class="frow">
+          <label class="f"><span data-i18n="f.name">Name *</span><input type="text" name="name" required></label>
+          <label class="f"><span data-i18n="f.phone">Telefon</span><input type="tel" name="phone"></label>
+        </div>
+        <div class="frow">
+          <label class="f"><span data-i18n="f.mail">E-Mail *</span><input type="email" name="email" required></label>
+          <label class="f"><span data-i18n="f.zip">PLZ / Ort</span><input type="text" name="zip"></label>
+        </div>
+        <div class="frow">
+          <label class="f"><span data-i18n="f.type">Art des Projekts</span>
+            <select name="type">
+              <option data-i18n="f.o1">Trennwand / Ständerwand</option>
+              <option data-i18n="f.o2">Vorsatzschale / Verkleidung</option>
+              <option data-i18n="f.o3">Unterdecke / GK-Decke</option>
+              <option data-i18n="f.o4">Akustikdecke / -paneele</option>
+              <option data-i18n="f.o5">Brand- / Schallschutz</option>
+              <option data-i18n="f.o6">Sonstiges</option>
+            </select>
+          </label>
+          <label class="f"><span data-i18n="f.area">Fläche ca. (m²)</span><input type="number" name="area" min="1"></label>
+        </div>
+        <label class="f"><span data-i18n="f.msg">Ihre Nachricht</span><textarea name="message" data-i18n-ph="f.msgph" placeholder="Raumgröße, gewünschte Leistung, Zeitrahmen …"></textarea></label>
+        <label class="cb"><input type="checkbox" name="dsgvo" required><span data-i18n-html="f.dsgvo">Ich habe die <a href="datenschutz.html">Datenschutzerklärung</a> gelesen und stimme der Verarbeitung meiner Daten zur Bearbeitung der Anfrage zu. *</span></label>
+        <button type="submit" class="btn btn-p" data-i18n="f.send">Anfrage absenden</button>
+        <div class="formnote" id="fnote" data-i18n="f.note">Prototyp: Das Formular versendet noch nichts. In der Live-Version geht die Anfrage per E-Mail an den Betrieb.</div>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div class="about">
+        <span class="logo"><span class="mk">MUSTER<em>AUSBAU</em></span></span>
+        <p data-i18n="ft.about">Platzhalter-Firmenprofil: Trockenbau- und Akustikbau-Leistungen für Privat- und Gewerbekunden. Planung, Ausführung und Abnahme aus einer Hand.</p>
+      </div>
+      <div><h4 data-i18n="ft.h1">Leistungen</h4><ul>
+        <li><a href="#leistungen" data-i18n="ft.l1">Trockenbauwände</a></li>
+        <li><a href="#leistungen" data-i18n="ft.l2">Vorsatzschalen</a></li>
+        <li><a href="#leistungen" data-i18n="ft.l3">Unterdecken &amp; GK-Decken</a></li>
+        <li><a href="#leistungen" data-i18n="ft.l4">Akustikdecken &amp; Paneele</a></li>
+        <li><a href="#leistungen" data-i18n="ft.l5">Deckensegel &amp; Baffeln</a></li>
+      </ul></div>
+      <div><h4 data-i18n="ft.h2">Unternehmen</h4><ul>
+        <li><a href="index.html" data-i18n="nav.home">Start</a></li>
+        <li><a href="spanndecken.html" data-i18n="nav.span">Spanndecken</a></li>
+        <li><a href="#faq" data-i18n="nav.faq">FAQ</a></li>
+        <li><a href="#kontakt" data-i18n="nav.contact">Kontakt</a></li>
+      </ul></div>
+      <div><h4 data-i18n="ft.h3">Rechtliches</h4><ul>
+        <li><a href="impressum.html" data-i18n="ft.r1">Impressum</a></li>
+        <li><a href="datenschutz.html" data-i18n="ft.r2">Datenschutz</a></li>
+        <li><a href="agb.html" data-i18n="ft.r3">AGB</a></li>
+        <li><a href="widerruf.html" data-i18n="ft.r4">Widerrufsbelehrung</a></li>
+      </ul></div>
+    </div>
+    <div class="fbot">
+      <span data-i18n="ft.copy">© 2026 Musterausbau – Platzhalter. Alle Rechte vorbehalten.</span>
+      <span data-i18n="ft.proto">Prototyp – nicht für die Öffentlichkeit bestimmt.</span>
+    </div>
+  </div>
+</footer>
+
+<div id="lb"><div class="ph c1"><i></i><em id="lbcap"></em></div></div>
+
+<div id="cookie">
+  <p data-i18n="ck.p">Wir verwenden technisch notwendige Cookies. Externe Dienste wie Karten werden erst nach Ihrer Einwilligung geladen.</p>
+  <div class="row">
+    <button class="btn btn-p" data-ck="all" data-i18n="ck.ok">Alle akzeptieren</button>
+    <button class="btn btn-g" data-ck="min" data-i18n="ck.min">Nur notwendige</button>
+    <a class="btn btn-g" href="datenschutz.html" data-i18n="ck.more">Details</a>
+  </div>
+</div>
+
+<script>
+/* ===== Tłumaczenia PL/EN dla trockenbau-akustikbau.html ===== */
+var PL = {
+"doc.title":"Trockenbau i akustyka – prototyp",
+"proto.hint":"Wersja testowa – treści, zdjęcia i dane firmy są zastępcze.",
+"logo.sub":"Trockenbau · Akustyka · Sufity",
+"nav.home":"Start","nav.span":"Sufity napinane","nav.tab":"Trockenbau i akustyka","nav.faq":"FAQ","nav.contact":"Kontakt",
+"hdr.telnote":"pn.–pt. 8–18","hdr.cta":"Zapytaj o wycenę",
+
+"hero.eyebrow":"Trockenbau i akustyka · ściany, sufity, spokój",
+"hero.h1":"Ściany i sufity, które trzymają, izolują i wyciszają.",
+"hero.p":"Ścianki działowe, okładziny, sufity podwieszane i przemyślane rozwiązania akustyczne – projektujemy, budujemy i montujemy dla biur, gabinetów, lokali i mieszkań. Po pomiarze, za stałą cenę.",
+"hero.cta1":"Bezpłatna wycena","hero.cta2":"Zobacz usługi",
+"hero.t1":"do oferty w stałej cenie","hero.t2":"redukcji pogłosu możliwe","hero.t3":"klasa ogniowa materiałów","hero.t4":"stała cena",
+
+"tech.eyebrow":"Trockenbau i akustyka",
+"tech.h2":"Jak planujemy razem ściany, sufity i spokój",
+"tech.p1":"Trockenbau i akustyka to dla nas jedno zagadnienie: ścianka działowa decyduje o układzie pomieszczeń, sufit podwieszany o instalacjach i oświetleniu, a akustyka o tym, czy pomieszczenie jest przyjemne do przebywania w nim. Planujemy wszystkie trzy warstwy razem, żeby na końcu nie trzeba było niczego poprawiać.",
+"tech.l1b":"Konstrukcja i okładziny:","tech.l1":"stelaż metalowy z płytami gipsowo-kartonowymi, gipsowo-włóknowymi lub specjalnymi płytami akustycznymi – zależnie od wymagań statycznych, ogniowych i akustycznych.",
+"tech.l2b":"Systemy sufitowe:","tech.l2":"podwieszane sufity G-K, sufity kasetonowe i wolno zawieszone panele akustyczne łączące instalacje, oświetlenie i akustykę w jednym systemie.",
+"tech.l3b":"Projekt akustyczny:","tech.l3":"obliczenie czasu pogłosu i celowy wybór absorberów, żeby mowa była zrozumiała, a hałas się nie kumulował.",
+"tech.l4b":"Ochrona ogniowa i akustyczna:","tech.l4":"systemy z atestami zgodnie z obowiązującymi normami, dokumentowane i możliwe do wykazania przy odbiorze budowy.",
+"tech.img":"Montaż ścianki działowej z izolacją akustyczną",
+"ph.badge":"Zdjęcie przykładowe",
+
+"srv.eyebrow":"Usługi","srv.h2":"Co budujemy",
+"srv.p":"Od prostej ścianki działowej po akustycznie zaprojektowany sufit – wszystko od jednego wykonawcy.",
+"srv.1h":"Ścianki działowe","srv.1p":"Ścianki na stelażu, przegrody i okładziny – swobodnie projektowane, także z elementami szklanymi lub drzwiami, dla biur, gabinetów i mieszkań.",
+"srv.2h":"Okładziny i zabudowy","srv.2p":"Zabudowa rur, instalacji i nierównych istniejących ścian, wraz z izolacją dla lepszej izolacji akustycznej i termicznej.",
+"srv.3h":"Sufity podwieszane G-K","srv.3p":"Podwieszane sufity gipsowo-kartonowe i kasetonowe dla instalacji, oświetlenia oraz równej, czystej powierzchni sufitu.",
+"srv.4h":"Ochrona ogniowa i akustyczna","srv.4p":"Sprawdzone systemy Trockenbau do ścian na korytarzach, klatek schodowych i stref ogniowych zgodnie z wymaganą klasyfikacją.",
+"srv.5h":"Sufity i panele akustyczne","srv.5p":"Mikroperforowane lub perforowane panele akustyczne na ścianach i sufitach wyraźnie zmniejszają pogłos w biurach, restauracjach i salach.",
+"srv.6h":"Panele i baffle sufitowe","srv.6p":"Wolno zawieszone elementy akustyczne dla otwartych przestrzeni i biur typu open space, gdzie zamknięty sufit podwieszany nie jest możliwy lub pożądany.",
+
+"adv.eyebrow":"Zalety","adv.h2":"Dlaczego Trockenbau i akustyka od jednego wykonawcy",
+"adv.p":"Ściany, sufity i akustyka wzajemnie na siebie wpływają – dlatego planujemy je wspólnie.",
+"adv.1h":"Elastyczny podział wnętrza","adv.1p":"Ściany można przesuwać lub dodawać bez wpływu na konstrukcję – idealne przy rosnących zespołach lub nowych koncepcjach użytkowania.",
+"adv.2h":"Mniej pogłosu, więcej spokoju","adv.2p":"Celowo rozmieszczone powierzchnie akustyczne wyraźnie zmniejszają poziom hałasu, bez wrażenia sterylności wnętrza.",
+"adv.3h":"Sprawdzona ochrona ogniowa","adv.3p":"Systemy z atestem dla wymaganej klasy odporności ogniowej, wraz z dokumentacją do odbioru budowy.",
+"adv.4h":"Czysta budowa","adv.4p":"Praca ograniczająca kurz, ochrona podłóg i mebli, możliwość pracy również przy działającej firmie.",
+"adv.5h":"Zintegrowane instalacje","adv.5p":"Wentylację, elektrykę i instalacje tryskaczowe można niewidocznie zintegrować w ścianie i suficie.",
+"adv.6h":"Krótki czas realizacji","adv.6p":"Trockenbau nie wymaga długiego czasu wiązania i suszenia – pomieszczenia są szybciej gotowe do użycia niż w budowie murowanej.",
+"adv.7h":"Indywidualne rozwiązania akustyczne","adv.7p":"Od dyskretnych paneli sufitowych do efektownych żagli akustycznych – akustyka i design się nie wykluczają.",
+"adv.8h":"Stała cena po pomiarze","adv.8p":"Wiążąca oferta po wizji lokalnej, żadnych skrytych kosztów.",
+
+"gal.eyebrow":"Galeria","gal.h2":"Zrealizowane projekty",
+"gal.p":"Kafelki zastępcze. Po przekazaniu zdjęć z realizacji trafią tutaj jeden do jednego.",
+"gal.1":"Biuro · ścianka działowa z elementem szklanym",
+"gal.2":"Sala konferencyjna · biały sufit akustyczny",
+"gal.3":"Korytarz · okładzina z podejściami sanitarnymi",
+"gal.4":"Kantyna · wolno zawieszone żagle akustyczne",
+"gal.5":"Klatka schodowa · ściana ogniowa F90",
+"gal.6":"Biuro open space · sufit G-K z oprawami wpuszczanymi",
+"gal.7":"Gabinet · panele akustyczne na ścianie",
+"gal.8":"Lokal handlowy · ścianka Trockenbau z okienkiem podawczym",
+"gal.9":"Mieszkanie w starej kamienicy · renowacja ściany i sufitu",
+
+"prc.eyebrow":"Przebieg","prc.h2":"Od zapytania do przekazania obiektu",
+"prc.1h":"Analiza potrzeb i konsultacja","prc.1p":"Ustalamy sposób użytkowania, wymogi statyczne, przeciwpożarowe i – jeśli to istotne – oczekiwaną akustykę pomieszczenia.",
+"prc.2h":"Projekt i oferta","prc.2p":"Układ pomieszczeń, plan sufitu i wybór materiałów, a następnie wiążąca oferta w stałej cenie.",
+"prc.3h":"Realizacja","prc.3p":"Konstrukcja, okładziny, systemy sufitowe i elementy akustyczne – na czas, z bieżącą kontrolą jakości.",
+"prc.4h":"Odbiór i przekazanie","prc.4p":"Wspólny odbiór wraz z dokumentacją potwierdzeń ochrony ogniowej i akustycznej.",
+
+"faq.eyebrow":"FAQ","faq.h2":"Najczęstsze pytania",
+"faq.1q":"Jaka jest różnica między Trockenbau a budową murowaną?","faq.1a":"Trockenbau wykorzystuje stelaż i płyty zamiast muru czy betonu. Ściany są lżejsze, szybciej montowane i można ich używać bez długiego czasu wysychania – przy porównywalnej izolacji akustycznej i ogniowej dzięki odpowiednim systemom.",
+"faq.2q":"Jak długo trwa montaż ścianki działowej?","faq.2a":"Dla przeciętnego pomieszczenia biurowego zwykle od jednego do trzech dni roboczych, zależnie od długości, wysokości i liczby przejść dla instalacji oraz drzwi.",
+"faq.3q":"Jakie parametry izolacji akustycznej są możliwe?","faq.3a":"Zależnie od konstrukcji ściany, okładziny i izolacji uzyskujemy różne wartości izolacyjności akustycznej – doradzamy, jaka konstrukcja jest potrzebna w zależności od sposobu użytkowania.",
+"faq.4q":"Ile kosztuje sufit akustyczny?","faq.4a":"Cena zależy od powierzchni, klasy absorpcji, wyglądu i wysokości pomieszczenia. Po krótkiej inwentaryzacji otrzymujesz wiążącą ofertę.",
+"faq.5q":"Czy Wasze systemy mają atesty przeciwpożarowe?","faq.5a":"Tak, stosujemy wyłącznie systemy z odpowiednimi atestami i dokumentujemy konstrukcję na potrzeby odbioru budowy.",
+"faq.6q":"Czy pracujecie też w użytkowanych pomieszczeniach?","faq.6a":"Tak. Planujemy realizację tak, by bieżąca działalność – na przykład w biurze czy gabinecie – była zakłócona możliwie najmniej, w razie potrzeby także poza godzinami pracy.",
+
+"con.eyebrow":"Kontakt","con.h2":"Zamów bezpłatną konsultację",
+"con.p":"Opisz krótko swój projekt – zwykle odpowiadamy jeszcze tego samego dnia roboczego.",
+"con.k1":"Telefon","con.v1":"pn.–pt. 8:00–18:00, sob. po uzgodnieniu",
+"con.k2":"E-mail","con.v2":"Odpowiedź zwykle w ciągu 24 godzin",
+"con.k3":"Adres","con.k4":"Obszar działania",
+"con.v4":"Promień 100 km<small>Dalsze odległości po uzgodnieniu</small>",
+"con.map":"Tutaj pojawi się osadzona mapa z lokalizacją firmy (ładowana zgodnie z RODO dopiero po kliknięciu).",
+
+"f.name":"Imię i nazwisko *","f.phone":"Telefon","f.mail":"E-mail *","f.zip":"Kod pocztowy / miasto",
+"f.type":"Rodzaj projektu","f.o1":"Ścianka działowa","f.o2":"Okładzina / zabudowa","f.o3":"Sufit podwieszany G-K","f.o4":"Sufit / panele akustyczne","f.o5":"Ochrona ogniowa / akustyczna","f.o6":"Inne",
+"f.area":"Powierzchnia ok. (m²)","f.msg":"Twoja wiadomość",
+"f.msgph":"Wielkość pomieszczenia, oczekiwana usługa, termin …",
+"f.dsgvo":"Zapoznałem/am się z <a href=\"datenschutz.html\">polityką prywatności</a> i wyrażam zgodę na przetwarzanie moich danych w celu obsługi zapytania. *",
+"f.send":"Wyślij zapytanie",
+"f.note":"Prototyp: formularz jeszcze nic nie wysyła. W wersji produkcyjnej zapytanie trafi e-mailem do firmy.",
+
+"ft.about":"Zastępczy profil firmy: usługi Trockenbau i akustyki dla klientów prywatnych i firm. Projekt, realizacja i odbiór od jednego wykonawcy.",
+"ft.h1":"Usługi","ft.l1":"Ścianki działowe","ft.l2":"Okładziny","ft.l3":"Sufity podwieszane G-K","ft.l4":"Sufity i panele akustyczne","ft.l5":"Żagle i baffle akustyczne",
+"ft.h2":"Firma","ft.h3":"Informacje prawne",
+"ft.r1":"Impressum","ft.r2":"Polityka prywatności","ft.r3":"Regulamin (AGB)","ft.r4":"Pouczenie o odstąpieniu",
+"ft.copy":"© 2026 Musterausbau – nazwa zastępcza. Wszelkie prawa zastrzeżone.",
+"ft.proto":"Prototyp – nieprzeznaczony do publicznego udostępnienia.",
+
+"ck.p":"Używamy wyłącznie plików cookie niezbędnych technicznie. Usługi zewnętrzne, takie jak mapy, ładowane są dopiero po wyrażeniu zgody.",
+"ck.ok":"Akceptuję wszystkie","ck.min":"Tylko niezbędne","ck.more":"Szczegóły"
+};
+
+var EN = {
+"doc.title":"Drylining &amp; acoustics – prototype",
+"proto.hint":"Test version – content, photos and company details are placeholders.",
+"logo.sub":"Drylining · Acoustics · Ceilings",
+"nav.home":"Home","nav.span":"Stretch ceilings","nav.tab":"Drylining &amp; acoustics","nav.faq":"FAQ","nav.contact":"Contact",
+"hdr.telnote":"Mon–Fri 8am–6pm","hdr.cta":"Request a quote",
+
+"hero.eyebrow":"Drylining &amp; acoustics · walls, ceilings, calm",
+"hero.h1":"Walls and ceilings that hold, insulate and calm a room.",
+"hero.p":"Partition walls, facing walls, suspended ceilings and well-thought-out acoustic solutions – we plan, build and install for offices, practices, shops and homes. After measurement, at a fixed price.",
+"hero.cta1":"Free quote","hero.cta2":"View services",
+"hero.t1":"to a fixed-price quote","hero.t2":"less reverberation possible","hero.t3":"fire class of materials","hero.t4":"fixed price",
+
+"tech.eyebrow":"Drylining &amp; acoustics",
+"tech.h2":"How we plan walls, ceilings and calm together",
+"tech.p1":"To us, drylining and acoustics are one discipline: a partition wall decides the floor plan, a suspended ceiling decides where services and lighting go, and the acoustics decide whether a room actually feels pleasant to be in. We plan all three layers together, so nothing has to be fixed after the fact.",
+"tech.l1b":"Framing &amp; boarding:","tech.l1":"metal stud framing with plasterboard, fibreboard or dedicated acoustic panels – matched to the structural, fire and sound requirements.",
+"tech.l2b":"Ceiling systems:","tech.l2":"suspended plasterboard ceilings, grid ceilings and free-hanging acoustic sails combining services, lighting and acoustics in one system.",
+"tech.l3b":"Acoustic design:","tech.l3":"calculating the reverberation time and choosing absorbers deliberately, so speech stays intelligible and noise doesn't build up.",
+"tech.l4b":"Fire &amp; sound protection:","tech.l4":"tested systems built to the relevant standards, documented and verifiable for building sign-off.",
+"tech.img":"Installing a partition wall with acoustic insulation",
+"ph.badge":"Sample photo",
+
+"srv.eyebrow":"Services","srv.h2":"What we build",
+"srv.p":"From a simple partition wall to an acoustically engineered ceiling – all from one team.",
+"srv.1h":"Partition walls","srv.1p":"Stud partitions and facing walls – freely designed, including glazed elements or doors, for offices, practices and flats.",
+"srv.2h":"Facing walls &amp; cladding","srv.2p":"Boxing in pipes, cables and uneven existing walls, including insulation for better sound and thermal performance.",
+"srv.3h":"Suspended plasterboard ceilings","srv.3p":"Suspended plasterboard and grid ceilings for services, lighting and a flat, clean ceiling surface.",
+"srv.4h":"Fire &amp; sound protection","srv.4p":"Tested drylining systems for corridor walls, stairwells and fire compartments, built to the required classification.",
+"srv.5h":"Acoustic ceilings &amp; wall panels","srv.5p":"Micro-perforated or perforated acoustic panels on walls and ceilings noticeably reduce reverberation in offices, restaurants and classrooms.",
+"srv.6h":"Ceiling sails &amp; baffles","srv.6p":"Free-hanging acoustic elements for open spaces and open-plan offices, where a closed suspended ceiling isn't possible or wanted.",
+
+"adv.eyebrow":"Advantages","adv.h2":"Why drylining &amp; acoustics from one team",
+"adv.p":"Walls, ceilings and acoustics affect each other – which is why we plan them together.",
+"adv.1h":"Flexible room layouts","adv.1p":"Walls can be moved or added without touching the structure – ideal for growing teams or new usage concepts.",
+"adv.2h":"Less reverberation, more calm","adv.2p":"Deliberately placed acoustic surfaces noticeably cut noise levels, without making a room feel sterile.",
+"adv.3h":"Tested fire protection","adv.3p":"Approved systems for the required fire-resistance class, including documentation for building sign-off.",
+"adv.4h":"Clean site","adv.4p":"Low-dust working methods, protection for floors and furniture, work possible even while a business stays open.",
+"adv.5h":"Integrated building services","adv.5p":"Ventilation, electrics and sprinkler systems can be integrated invisibly into walls and ceilings.",
+"adv.6h":"Short build times","adv.6p":"Drylining needs no long drying or curing times – rooms are usable again sooner than with solid masonry construction.",
+"adv.7h":"Tailored acoustic solutions","adv.7p":"From discreet ceiling panels to sculptural ceiling sails – acoustics and design don't have to be a trade-off.",
+"adv.8h":"Fixed price after measurement","adv.8p":"A binding quote after a site visit, with no hidden costs.",
+
+"gal.eyebrow":"Gallery","gal.h2":"Completed projects",
+"gal.p":"Placeholder tiles. As soon as your reference photos are available, they will be swapped in one for one.",
+"gal.1":"Office · partition wall with a glazed element",
+"gal.2":"Meeting room · white acoustic ceiling",
+"gal.3":"Corridor · facing wall with sanitary connections",
+"gal.4":"Canteen · free-hanging acoustic sails",
+"gal.5":"Stairwell · F90 fire-rated wall",
+"gal.6":"Open-plan office · plasterboard ceiling with recessed lights",
+"gal.7":"Practice · acoustic wall panels",
+"gal.8":"Shop · partition wall with a service hatch",
+"gal.9":"Period flat · wall and ceiling refurbishment",
+
+"prc.eyebrow":"Process","prc.h2":"From enquiry to handover",
+"prc.1h":"Needs assessment &amp; consultation","prc.1p":"We clarify how the space is used, structural and fire-safety requirements and, where relevant, the room acoustics you need.",
+"prc.2h":"Design &amp; quote","prc.2p":"Floor plans, ceiling layout and choice of materials, followed by a binding fixed-price quote.",
+"prc.3h":"Execution","prc.3p":"Framing, boarding, ceiling systems and acoustic elements – on schedule, with ongoing quality checks.",
+"prc.4h":"Sign-off &amp; handover","prc.4p":"Joint sign-off including documentation of the fire- and sound-protection evidence.",
+
+"faq.eyebrow":"FAQ","faq.h2":"Frequently asked questions",
+"faq.1q":"What's the difference between drylining and solid masonry construction?","faq.1a":"Drylining uses stud framing and board materials instead of brick or concrete. Walls are lighter, installed faster and usable without long drying times – with comparable sound and fire protection through the right system build-up.",
+"faq.2q":"How long does installing a partition wall take?","faq.2a":"For an average office room, usually one to three working days, depending on length, height and the number of penetrations for services and doors.",
+"faq.3q":"What sound-insulation values are achievable?","faq.3a":"Depending on wall build-up, boarding and insulation we can reach different sound-reduction values – we advise on the build-up needed for your intended use.",
+"faq.4q":"What does an acoustic ceiling cost?","faq.4a":"The price depends on area, absorption class, appearance and ceiling height. After a short survey you get a binding quote.",
+"faq.5q":"Are your systems fire-tested?","faq.5a":"Yes, we only use systems with the relevant approvals and document the build-up for building sign-off.",
+"faq.6q":"Do you also work in occupied spaces?","faq.6a":"Yes. We plan execution so that ongoing operations – in an office or practice, for example – are disrupted as little as possible, including outside business hours if needed.",
+
+"con.eyebrow":"Contact","con.h2":"Request a free consultation",
+"con.p":"Briefly describe your project – we usually reply the same working day.",
+"con.k1":"Phone","con.v1":"Mon–Fri 8am–6pm, Saturday by arrangement",
+"con.k2":"Email","con.v2":"Reply usually within 24 hours",
+"con.k3":"Address","con.k4":"Service area",
+"con.v4":"100 km radius<small>Further distances by arrangement</small>",
+"con.map":"An embedded map with the company location will appear here (loaded only after consent, in line with GDPR).",
+
+"f.name":"Name *","f.phone":"Phone","f.mail":"Email *","f.zip":"Postcode / city",
+"f.type":"Type of project","f.o1":"Partition wall","f.o2":"Facing wall / cladding","f.o3":"Suspended plasterboard ceiling","f.o4":"Acoustic ceiling / panels","f.o5":"Fire / sound protection","f.o6":"Other",
+"f.area":"Area approx. (m²)","f.msg":"Your message",
+"f.msgph":"Room size, service you need, timeframe …",
+"f.dsgvo":"I have read the <a href=\"datenschutz.html\">privacy policy</a> and agree that my data may be processed to handle my enquiry. *",
+"f.send":"Send enquiry",
+"f.note":"Prototype: this form does not send anything yet. In the live version the enquiry is emailed to the company.",
+
+"ft.about":"Placeholder company profile: drylining and acoustics services for private and commercial customers. Design, execution and sign-off from one team.",
+"ft.h1":"Services","ft.l1":"Partition walls","ft.l2":"Facing walls","ft.l3":"Suspended plasterboard ceilings","ft.l4":"Acoustic ceilings &amp; panels","ft.l5":"Ceiling sails &amp; baffles",
+"ft.h2":"Company","ft.h3":"Legal",
+"ft.r1":"Legal notice","ft.r2":"Privacy policy","ft.r3":"Terms &amp; conditions","ft.r4":"Right of withdrawal",
+"ft.copy":"© 2026 Musterausbau – placeholder name. All rights reserved.",
+"ft.proto":"Prototype – not intended for public access.",
+
+"ck.p":"We only use technically necessary cookies. External services such as maps are loaded only after you consent.",
+"ck.ok":"Accept all","ck.min":"Necessary only","ck.more":"Details"
+};
+</script>
+<script src="assets/site.js"></script>
+</body>
+</html>

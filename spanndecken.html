@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="de" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title data-i18n="doc.title">Spanndecken – Prototyp</title>
+<meta name="description" content="Prototyp einer Webseite für Spanndecken-Montage.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<div id="protobar">
+  <b>PROTOTYP</b>
+  <div class="grp"><span class="lbl">Sprache / Język / Language:</span>
+    <button data-lang-btn="de" aria-pressed="true">DE</button>
+    <button data-lang-btn="pl" aria-pressed="false">PL</button>
+    <button data-lang-btn="en" aria-pressed="false">EN</button>
+  </div>
+  <span class="hint" data-i18n="proto.hint">Testversion – Inhalte, Bilder und Firmendaten sind Platzhalter.</span>
+</div>
+
+<header id="hdr">
+  <div class="wrap nav">
+    <a href="index.html" class="logo">
+      <span class="mk">MUSTER<em>AUSBAU</em></span>
+      <span class="sub" data-i18n="logo.sub">Trockenbau · Akustik · Decken</span>
+    </a>
+    <nav id="menu">
+      <a href="index.html" data-i18n="nav.home">Start</a>
+      <a href="spanndecken.html" aria-current="page" data-i18n="nav.span">Spanndecken</a>
+      <a href="trockenbau-akustikbau.html" data-i18n="nav.tab">Trockenbau &amp; Akustikbau</a>
+      <a href="#faq" data-i18n="nav.faq">FAQ</a>
+      <a href="#kontakt" data-i18n="nav.contact">Kontakt</a>
+    </nav>
+    <a class="tel" href="tel:+490000000000">+49 (0) 000 000 00 00<small data-i18n="hdr.telnote">Mo–Fr 8–18 Uhr</small></a>
+    <a class="btn btn-p" href="#kontakt" data-i18n="hdr.cta">Angebot anfragen</a>
+    <button class="burger" id="burger" aria-label="Menü">☰</button>
+  </div>
+</header>
+
+<main id="site">
+<span id="top"></span>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="wrap">
+    <span class="eyebrow" data-i18n="hero.eyebrow">Spanndecken · Montage in einem Tag</span>
+    <h1 data-i18n="hero.h1">Decken, die einen Raum in Stunden verwandeln.</h1>
+    <p data-i18n="hero.p">Nahtlose Spanndecken in Matt, Satin oder Hochglanz – mit integriertem Licht, ohne Staub, ohne Ausräumen. Wir messen auf, fertigen millimetergenau und montieren an einem Tag.</p>
+    <div class="hero-cta">
+      <a class="btn btn-p" href="#kontakt" data-i18n="hero.cta1">Kostenloses Angebot</a>
+      <a class="btn btn-g" href="#galerie" data-i18n="hero.cta2">Galerie ansehen</a>
+    </div>
+    <div class="trust">
+      <div><b>1</b><span data-i18n="hero.t1">Tag Montagezeit</span></div>
+      <div><b>10</b><span data-i18n="hero.t2">Jahre Garantie</span></div>
+      <div><b>0</b><span data-i18n="hero.t3">Staub &amp; Schmutz</span></div>
+      <div><b>100%</b><span data-i18n="hero.t4">Festpreis</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TECHNOLOGIA ===== -->
+<section id="technologie">
+  <div class="wrap split">
+    <div>
+      <span class="eyebrow" data-i18n="tech.eyebrow">Die Technologie</span>
+      <h2 data-i18n="tech.h2">Was eine Spanndecke ist – und warum sie funktioniert</h2>
+      <p class="lead" data-i18n="tech.p1">Eine Spanndecke besteht aus einer hauchdünnen, millimetergenau zugeschnittenen Folien- oder Gewebebahn. Sie wird in ein umlaufendes Profil eingespannt, das direkt an Wand oder Altdecke montiert wird. Die Bahn wird auf ca. 60 °C erwärmt, eingehängt und zieht sich beim Abkühlen zu einer vollkommen glatten, fugenlosen Fläche zusammen.</p>
+      <ul class="checks">
+        <li><span><b data-i18n="tech.l1b">Aufmaß &amp; Fertigung:</b> <span data-i18n="tech.l1">Jede Decke wird nach digitalem Aufmaß im Werk konfektioniert – Zuschnitt, Schweißnähte und Aussparungen für Leuchten oder Lüftung inklusive.</span></span></li>
+        <li><span><b data-i18n="tech.l2b">Profilsystem:</b> <span data-i18n="tech.l2">Sichtbare oder verdeckte Profile, Schattenfuge oder Lichtvoute – das Profil bestimmt, wie die Decke am Rand wirkt.</span></span></li>
+        <li><span><b data-i18n="tech.l3b">Materialien:</b> <span data-i18n="tech.l3">PVC-Folie in Matt, Satin, Lack oder Transluzent sowie textile Gewebedecken für große Flächen ohne Naht.</span></span></li>
+        <li><span><b data-i18n="tech.l4b">Unterkonstruktion:</b> <span data-i18n="tech.l4">Rohre, Kabel, Risse und unebene Altdecken verschwinden dauerhaft – ohne Verputzen oder Abschleifen.</span></span></li>
+      </ul>
+    </div>
+    <div class="ph c3"><i></i><s data-i18n="ph.badge">Musterbild</s><em data-i18n="tech.img">Einspannen der Bahn in das Umlaufprofil</em></div>
+  </div>
+</section>
+
+<!-- ===== USŁUGI ===== -->
+<section id="leistungen" class="alt">
+  <div class="wrap">
+    <div class="sechead">
+      <span class="eyebrow" data-i18n="srv.eyebrow">Leistungen</span>
+      <h2 data-i18n="srv.h2">Was wir montieren</h2>
+      <p class="lead" data-i18n="srv.p">Von der klassischen weißen Decke im Wohnzimmer bis zur bedruckten Akustikdecke im Ladenlokal – alles aus einer Hand.</p>
+    </div>
+    <div class="grid g3">
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24"><path d="M3 7h18M3 12h18M3 17h18"/></svg></div><h3 data-i18n="srv.1h">Matt, Satin &amp; Lack</h3><p data-i18n="srv.1p">Die Klassiker: mattweiß wie frisch verputzt, seidig schimmernd oder hochglänzend mit Spiegeleffekt, der niedrige Räume optisch verdoppelt.</p></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"/></svg></div><h3 data-i18n="srv.2h">Lichtdecken &amp; LED</h3><p data-i18n="srv.2p">Indirekte Lichtvouten, Spots, Lichtlinien oder eine komplett hinterleuchtete transluzente Fläche – Beleuchtung wird Teil der Decke statt daran befestigt.</p></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24"><path d="M12 3l1.8 4.6L18 9l-4.2 1.4L12 15l-1.8-4.6L6 9l4.2-1.4z"/><circle cx="18.5" cy="17.5" r="1"/><circle cx="6" cy="18" r="1"/></svg></div><h3 data-i18n="srv.3h">Sternenhimmel</h3><p data-i18n="srv.3p">Glasfaser- oder LED-Punkte in frei wählbarer Dichte, mit Farbwechsel und Funkeleffekt – besonders beliebt in Schlaf-, Kino- und Wellnessräumen.</p></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M3 14l4.5-4.5 4 4 3-3L21 15"/><circle cx="8.5" cy="8.5" r="1.2"/></svg></div><h3 data-i18n="srv.4h">Bedruckte Decken</h3><p data-i18n="srv.4p">Fotorealistischer Direktdruck in bis zu 1440 dpi: Himmel, Holzstruktur, Firmenlogo oder Ihr eigenes Motiv, nahtlos über die ganze Fläche.</p></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24"><path d="M4 18V9M8 18V6M12 18v-8M16 18V7M20 18v-5"/></svg></div><h3 data-i18n="srv.5h">Akustikdecken</h3><p data-i18n="srv.5p">Mikroperforierte Bahnen mit Akustikvlies senken Nachhall in Büros, Praxen, Restaurants und offenen Wohnräumen spürbar.</p></div>
+      <div class="card"><div class="ico"><svg viewBox="0 0 24 24"><path d="M12 3s5 5.5 5 9a5 5 0 01-10 0c0-3.5 5-9 5-9z"/></svg></div><h3 data-i18n="srv.6h">Wasserschaden &amp; Sanierung</h3><p data-i18n="srv.6p">Die Folie hält austretendes Wasser zurück und schützt Einrichtung und Estrich. Nach dem Abpumpen kehrt sie meist in die Ausgangsform zurück.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ZALETY ===== -->
+<section id="vorteile">
+  <div class="wrap">
+    <div class="sechead center">
+      <span class="eyebrow" data-i18n="adv.eyebrow">Vorteile</span>
+      <h2 data-i18n="adv.h2">Warum Spanndecke statt Rigips oder Streichen</h2>
+      <p class="lead" data-i18n="adv.p">Kein wochenlanger Baustellenbetrieb, kein Spachteln, kein Nachstreichen alle paar Jahre.</p>
+    </div>
+    <div class="grid g4">
+      <div class="card"><h3 data-i18n="adv.1h">An einem Tag fertig</h3><p data-i18n="adv.1p">Ein durchschnittlicher Wohnraum ist in vier bis sechs Stunden bezugsfertig – abends nutzen Sie ihn wieder.</p></div>
+      <div class="card"><h3 data-i18n="adv.2h">Staubarm &amp; sauber</h3><p data-i18n="adv.2p">Keine Schleifarbeiten, kein Putz. Möbel bleiben meist stehen, abgedeckt wird nur, wo montiert wird.</p></div>
+      <div class="card"><h3 data-i18n="adv.3h">Feuchteresistent</h3><p data-i18n="adv.3p">Ideal für Bad, Küche und Keller: die Oberfläche nimmt keine Feuchtigkeit auf und bietet Schimmel keinen Nährboden.</p></div>
+      <div class="card"><h3 data-i18n="adv.4h">Verdeckt alles</h3><p data-i18n="adv.4p">Risse, Kabel, Rohre, alte Stuckreste und schiefe Altdecken verschwinden hinter einer exakt ebenen Fläche.</p></div>
+      <div class="card"><h3 data-i18n="adv.5h">Pflegeleicht</h3><p data-i18n="adv.5p">Abwischbar, antistatisch, farbstabil. Streichen entfällt dauerhaft – auch nach zehn Jahren.</p></div>
+      <div class="card"><h3 data-i18n="adv.6h">Licht frei planbar</h3><p data-i18n="adv.6p">Spots, Lichtlinien und Vouten lassen sich an jeder Stelle einplanen, unabhängig von der alten Elektroinstallation.</p></div>
+      <div class="card"><h3 data-i18n="adv.7h">Geprüfte Materialien</h3><p data-i18n="adv.7p">Schwer entflammbar nach B1/B-s2,d0 und emissionsarm – geeignet für Wohnräume, Praxen und öffentliche Gebäude.</p></div>
+      <div class="card"><h3 data-i18n="adv.8h">Festpreisgarantie</h3><p data-i18n="adv.8p">Nach dem Aufmaß erhalten Sie einen verbindlichen Preis. Keine Nachträge, keine Überraschungen.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== GALERIA ===== -->
+<section id="galerie" class="alt">
+  <div class="wrap">
+    <div class="sechead">
+      <span class="eyebrow" data-i18n="gal.eyebrow">Galerie</span>
+      <h2 data-i18n="gal.h2">Ausgeführte Projekte</h2>
+      <p class="lead" data-i18n="gal.p">Platzhalter-Kacheln. Sobald Ihre Referenzfotos vorliegen, werden sie hier eins zu eins eingesetzt.</p>
+    </div>
+    <div class="gal">
+      <div class="ph c1"><i></i><s data-i18n="ph.badge">Musterbild</s><em data-i18n="gal.1">Wohnzimmer · Mattdecke mit umlaufender Lichtvoute</em></div>
+      <div class="ph c2"><i></i><s data-i18n="ph.badge">Musterbild</s><em data-i18n="gal.2">Badezimmer · Lackdecke, hochglänzend</em></div>
+      <div class="ph c4"><i></i><s data-i18n="ph.badge">Musterbild</s><em data-i18n="gal.3">Schlafzimmer · Sternenhimmel mit Farbwechsel</em></div>
+      <div class="ph c5"><i></i><s data-i18n="ph.badge">Musterbild</s><em data-i18n="gal.4">Küche · Satindecke mit Einbauspots</em></div>
+      <div class="ph c6"><i></i><s data-i18n="ph.badge">Musterbild</s><em data-i18n="gal.5">Flur · Schattenfuge, indirekt beleuchtet</em></div>
+      <div class="ph c7"><i></i><s data-i18n="ph.badge">Musterbild</s><em data-i18n="gal.6">Ladenlokal · hinterleuchtete transluzente Fläche</em></div>
+      <div class="ph c8"><i></i><s data-i18n="ph.badge">Musterbild</s><em data-i18n="gal.7">Praxis · Akustikdecke, mikroperforiert</em></div>
+      <div class="ph c9"><i></i><s data-i18n="ph.badge">Musterbild</s><em data-i18n="gal.8">Büro · Lichtlinien im Deckenspiegel</em></div>
+      <div class="ph c3"><i></i><s data-i18n="ph.badge">Musterbild</s><em data-i18n="gal.9">Treppenhaus · bedruckte Decke, Eigenmotiv</em></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROCES ===== -->
+<section id="ablauf">
+  <div class="wrap">
+    <div class="sechead">
+      <span class="eyebrow" data-i18n="prc.eyebrow">Ablauf</span>
+      <h2 data-i18n="prc.h2">Von der Anfrage bis zur fertigen Decke</h2>
+    </div>
+    <div class="steps">
+      <div class="step"><h3 data-i18n="prc.1h">Beratung &amp; Aufmaß</h3><p data-i18n="prc.1p">Kostenloser Termin bei Ihnen vor Ort. Wir messen digital auf, besprechen Material, Profil und Lichtplanung und klären die Anschlüsse.</p></div>
+      <div class="step"><h3 data-i18n="prc.2h">Festpreisangebot</h3><p data-i18n="prc.2p">Innerhalb von 48 Stunden erhalten Sie ein verbindliches Angebot mit allen Positionen – Material, Leuchten, Montage, Entsorgung.</p></div>
+      <div class="step"><h3 data-i18n="prc.3h">Fertigung</h3><p data-i18n="prc.3p">Die Bahn wird im Werk millimetergenau konfektioniert und geschweißt. Lieferzeit in der Regel 7–14 Werktage.</p></div>
+      <div class="step"><h3 data-i18n="prc.4h">Montage &amp; Abnahme</h3><p data-i18n="prc.4p">Profile setzen, Bahn erwärmen, einspannen, Leuchten einsetzen, aufräumen. Gemeinsame Abnahme und Übergabe der Garantieurkunde.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section id="faq" class="alt">
+  <div class="wrap">
+    <div class="sechead center">
+      <span class="eyebrow" data-i18n="faq.eyebrow">FAQ</span>
+      <h2 data-i18n="faq.h2">Häufige Fragen</h2>
+    </div>
+    <div class="faq">
+      <details open><summary data-i18n="faq.1q">Wie viel Raumhöhe geht verloren?</summary><p data-i18n="faq.1a">In der Regel 3 bis 5 Zentimeter. Werden Einbauspots gesetzt, richtet sich der Abstand nach der Bauhöhe der Leuchte – meist 6 bis 8 Zentimeter. Bei Lichtvouten planen wir den Abstand gestalterisch mit ein.</p></details>
+      <details><summary data-i18n="faq.2q">Muss ich die Möbel ausräumen?</summary><p data-i18n="faq.2a">Nein. Große Möbel bleiben stehen und werden abgedeckt; freier Zugang wird nur an den Wandkanten benötigt. Hängelampen demontieren wir selbst.</p></details>
+      <details><summary data-i18n="faq.3q">Riecht die Decke nach der Montage?</summary><p data-i18n="faq.3a">Frisch montierte PVC-Decken können ein bis zwei Tage einen leichten Eigengeruch haben, der sich durch Lüften verflüchtigt. Verarbeitet werden ausschließlich emissionsarme, geprüfte Materialien.</p></details>
+      <details><summary data-i18n="faq.4q">Was passiert bei einem Wasserschaden von oben?</summary><p data-i18n="faq.4a">Die Bahn hält das Wasser zurück und dehnt sich sackförmig aus – bei großen Flächen mehrere hundert Liter. Wir pumpen kontrolliert ab; in den meisten Fällen kehrt die Decke anschließend in ihre ursprüngliche Form zurück.</p></details>
+      <details><summary data-i18n="faq.5q">Lässt sich die Decke wieder öffnen?</summary><p data-i18n="faq.5a">Ja. Die Bahn kann aus dem Profil ausgehängt und nach Arbeiten an Leitungen oder Lüftung wieder eingespannt werden – ohne sichtbare Spuren.</p></details>
+      <details><summary data-i18n="faq.6q">Was kostet eine Spanndecke?</summary><p data-i18n="faq.6a">Der Preis hängt von Fläche, Material, Zuschnitt, Profiltyp und Beleuchtung ab. Kleine Räume kosten pro Quadratmeter mehr als große Flächen. Ein belastbarer Preis entsteht erst nach dem Aufmaß – deshalb ist es bei uns kostenlos.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- ===== KONTAKT ===== -->
+<section id="kontakt">
+  <div class="wrap">
+    <div class="sechead">
+      <span class="eyebrow" data-i18n="con.eyebrow">Kontakt</span>
+      <h2 data-i18n="con.h2">Kostenloses Aufmaß anfragen</h2>
+      <p class="lead" data-i18n="con.p">Beschreiben Sie kurz Ihr Vorhaben – wir melden uns in der Regel am selben Werktag zurück.</p>
+    </div>
+    <div class="contact">
+      <div class="cinfo">
+        <div class="cline"><div class="ico"><svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a12 12 0 005 5L15 13l5 2v4a1 1 0 01-1 1A16 16 0 014 5a1 1 0 011-1z"/></svg></div><div><div class="k" data-i18n="con.k1">Telefon</div><div class="v"><a href="tel:+490000000000">+49 (0) 000 000 00 00</a><small data-i18n="con.v1">Mo–Fr 8:00–18:00, Sa nach Absprache</small></div></div></div>
+        <div class="cline"><div class="ico"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></div><div><div class="k" data-i18n="con.k2">E-Mail</div><div class="v"><a href="mailto:info@musterausbau.de">info@musterausbau.de</a><small data-i18n="con.v2">Antwort in der Regel innerhalb von 24 Stunden</small></div></div></div>
+        <div class="cline"><div class="ico"><svg viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11a7 7 0 10-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></div><div><div class="k" data-i18n="con.k3">Adresse</div><div class="v">Musterstraße 1<small>00000 Musterstadt</small></div></div></div>
+        <div class="cline"><div class="ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg></div><div><div class="k" data-i18n="con.k4">Einsatzgebiet</div><div class="v" data-i18n="con.v4">Umkreis 100 km<small>Weitere Entfernungen auf Anfrage</small></div></div></div>
+        <div class="map"><p data-i18n="con.map">Hier erscheint später die eingebettete Karte mit dem Firmenstandort (datenschutzkonform erst nach Klick geladen).</p></div>
+      </div>
+      <form id="cform" novalidate>
+        <div class="frow">
+          <label class="f"><span data-i18n="f.name">Name *</span><input type="text" name="name" required></label>
+          <label class="f"><span data-i18n="f.phone">Telefon</span><input type="tel" name="phone"></label>
+        </div>
+        <div class="frow">
+          <label class="f"><span data-i18n="f.mail">E-Mail *</span><input type="email" name="email" required></label>
+          <label class="f"><span data-i18n="f.zip">PLZ / Ort</span><input type="text" name="zip"></label>
+        </div>
+        <div class="frow">
+          <label class="f"><span data-i18n="f.type">Art des Projekts</span>
+            <select name="type">
+              <option data-i18n="f.o1">Wohnraum</option>
+              <option data-i18n="f.o2">Bad / Küche</option>
+              <option data-i18n="f.o3">Gewerbe / Ladenlokal</option>
+              <option data-i18n="f.o4">Lichtdecke / Sternenhimmel</option>
+              <option data-i18n="f.o5">Wasserschaden / Sanierung</option>
+              <option data-i18n="f.o6">Sonstiges</option>
+            </select>
+          </label>
+          <label class="f"><span data-i18n="f.area">Fläche ca. (m²)</span><input type="number" name="area" min="1"></label>
+        </div>
+        <label class="f"><span data-i18n="f.msg">Ihre Nachricht</span><textarea name="message" data-i18n-ph="f.msgph" placeholder="Raumgröße, Wunschoberfläche, Beleuchtung, Zeitrahmen …"></textarea></label>
+        <label class="cb"><input type="checkbox" name="dsgvo" required><span data-i18n-html="f.dsgvo">Ich habe die <a href="datenschutz.html">Datenschutzerklärung</a> gelesen und stimme der Verarbeitung meiner Daten zur Bearbeitung der Anfrage zu. *</span></label>
+        <button type="submit" class="btn btn-p" data-i18n="f.send">Anfrage absenden</button>
+        <div class="formnote" id="fnote" data-i18n="f.note">Prototyp: Das Formular versendet noch nichts. In der Live-Version geht die Anfrage per E-Mail an den Betrieb.</div>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div class="about">
+        <span class="logo"><span class="mk">MUSTER<em>AUSBAU</em></span></span>
+        <p data-i18n="ft.about">Platzhalter-Firmenprofil: Spanndecken-Montage für Privat- und Gewerbekunden. Aufmaß, Fertigung, Montage und Lichtplanung aus einer Hand.</p>
+      </div>
+      <div><h4 data-i18n="ft.h1">Leistungen</h4><ul>
+        <li><a href="#leistungen" data-i18n="ft.l1">Matt, Satin &amp; Lack</a></li>
+        <li><a href="#leistungen" data-i18n="ft.l2">Lichtdecken</a></li>
+        <li><a href="#leistungen" data-i18n="ft.l3">Sternenhimmel</a></li>
+        <li><a href="#leistungen" data-i18n="ft.l4">Akustikdecken</a></li>
+        <li><a href="#leistungen" data-i18n="ft.l5">Sanierung</a></li>
+      </ul></div>
+      <div><h4 data-i18n="ft.h2">Unternehmen</h4><ul>
+        <li><a href="index.html" data-i18n="nav.home">Start</a></li>
+        <li><a href="trockenbau-akustikbau.html" data-i18n="nav.tab">Trockenbau &amp; Akustikbau</a></li>
+        <li><a href="#faq" data-i18n="nav.faq">FAQ</a></li>
+        <li><a href="#kontakt" data-i18n="nav.contact">Kontakt</a></li>
+      </ul></div>
+      <div><h4 data-i18n="ft.h3">Rechtliches</h4><ul>
+        <li><a href="impressum.html" data-i18n="ft.r1">Impressum</a></li>
+        <li><a href="datenschutz.html" data-i18n="ft.r2">Datenschutz</a></li>
+        <li><a href="agb.html" data-i18n="ft.r3">AGB</a></li>
+        <li><a href="widerruf.html" data-i18n="ft.r4">Widerrufsbelehrung</a></li>
+      </ul></div>
+    </div>
+    <div class="fbot">
+      <span data-i18n="ft.copy">© 2026 Musterausbau – Platzhalter. Alle Rechte vorbehalten.</span>
+      <span data-i18n="ft.proto">Prototyp – nicht für die Öffentlichkeit bestimmt.</span>
+    </div>
+  </div>
+</footer>
+
+<div id="lb"><div class="ph c1"><i></i><em id="lbcap"></em></div></div>
+
+<div id="cookie">
+  <p data-i18n="ck.p">Wir verwenden technisch notwendige Cookies. Externe Dienste wie Karten werden erst nach Ihrer Einwilligung geladen.</p>
+  <div class="row">
+    <button class="btn btn-p" data-ck="all" data-i18n="ck.ok">Alle akzeptieren</button>
+    <button class="btn btn-g" data-ck="min" data-i18n="ck.min">Nur notwendige</button>
+    <a class="btn btn-g" href="datenschutz.html" data-i18n="ck.more">Details</a>
+  </div>
+</div>
+
+<script>
+/* ===== Tłumaczenia PL/EN dla spanndecken.html ===== */
+var PL = {
+"doc.title":"Sufity napinane – prototyp",
+"proto.hint":"Wersja testowa – treści, zdjęcia i dane firmy są zastępcze.",
+"logo.sub":"Trockenbau · Akustyka · Sufity",
+"nav.home":"Start","nav.span":"Sufity napinane","nav.tab":"Trockenbau i akustyka","nav.faq":"FAQ","nav.contact":"Kontakt",
+"hdr.telnote":"pn.–pt. 8–18","hdr.cta":"Zapytaj o wycenę",
+
+"hero.eyebrow":"Sufity napinane · montaż w jeden dzień",
+"hero.h1":"Sufity, które zmieniają wnętrze w kilka godzin.",
+"hero.p":"Bezspoinowe sufity napinane – matowe, satynowe lub lakierowane, z wbudowanym światłem. Bez kurzu, bez wynoszenia mebli. Mierzymy, produkujemy co do milimetra i montujemy w jeden dzień.",
+"hero.cta1":"Bezpłatna wycena","hero.cta2":"Zobacz galerię",
+"hero.t1":"dzień montażu","hero.t2":"lat gwarancji","hero.t3":"kurzu i brudu","hero.t4":"stała cena",
+
+"tech.eyebrow":"Technologia",
+"tech.h2":"Czym jest sufit napinany i dlaczego działa",
+"tech.p1":"Sufit napinany to cienka folia lub tkanina przycięta co do milimetra. Wpina się ją w profil obwodowy zamontowany do ściany lub starego sufitu. Materiał podgrzewa się do ok. 60 °C, zawiesza w profilu, a podczas stygania napina się w idealnie gładką, bezspoinową powierzchnię.",
+"tech.l1b":"Pomiar i produkcja:","tech.l1":"każdy sufit powstaje na podstawie pomiaru cyfrowego – docięcie, zgrzewy i otwory pod oprawy czy wentylację są przygotowane fabrycznie.",
+"tech.l2b":"System profili:","tech.l2":"profile widoczne lub ukryte, szczelina cienia albo wnęka świetlna – to profil decyduje o tym, jak sufit wygląda przy krawędzi.",
+"tech.l3b":"Materiały:","tech.l3":"folia PVC matowa, satynowa, lakierowana i transparentna oraz tkaniny na duże powierzchnie bez łączeń.",
+"tech.l4b":"Co zakrywa:","tech.l4":"rury, kable, pęknięcia i krzywy stary sufit znikają na stałe – bez tynkowania i szlifowania.",
+"tech.img":"Wpinanie płótna w profil obwodowy",
+"ph.badge":"Zdjęcie przykładowe",
+
+"srv.eyebrow":"Usługi","srv.h2":"Co montujemy",
+"srv.p":"Od klasycznego białego sufitu w salonie po zadrukowany sufit akustyczny w lokalu usługowym – wszystko od jednego wykonawcy.",
+"srv.1h":"Mat, satyna i lakier","srv.1p":"Klasyka: biel matowa jak świeży tynk, delikatny połysk satyny albo lakier z efektem lustra, który optycznie podwaja wysokość niskiego wnętrza.",
+"srv.2h":"Sufity świetlne i LED","srv.2p":"Wnęki świetlne, oprawy punktowe, linie świetlne albo cała podświetlana powierzchnia transparentna – światło staje się częścią sufitu, a nie dodatkiem do niego.",
+"srv.3h":"Gwiaździste niebo","srv.3p":"Punkty ze światłowodów lub LED w dowolnym zagęszczeniu, ze zmianą barwy i efektem migotania – najczęściej w sypialniach, salach kinowych i strefach wellness.",
+"srv.4h":"Sufity z nadrukiem","srv.4p":"Fotorealistyczny druk do 1440 dpi: niebo, struktura drewna, logo firmy albo własny motyw – bezspoinowo na całej powierzchni.",
+"srv.5h":"Sufity akustyczne","srv.5p":"Mikroperforowane płótno z welonem akustycznym wyraźnie obniża pogłos w biurach, gabinetach, restauracjach i otwartych wnętrzach mieszkalnych.",
+"srv.6h":"Zalania i renowacje","srv.6p":"Folia zatrzymuje wodę i chroni wyposażenie oraz wylewkę. Po kontrolowanym odpompowaniu sufit w większości przypadków wraca do pierwotnego kształtu.",
+
+"adv.eyebrow":"Zalety","adv.h2":"Dlaczego sufit napinany zamiast płyt G-K albo malowania",
+"adv.p":"Bez tygodni remontu, bez szpachlowania i bez odnawiania co kilka lat.",
+"adv.1h":"Gotowe w jeden dzień","adv.1p":"Przeciętny pokój jest gotowy w cztery do sześciu godzin – wieczorem można z niego normalnie korzystać.",
+"adv.2h":"Bez kurzu","adv.2p":"Żadnego szlifowania ani tynkowania. Meble zwykle zostają na miejscu, zabezpieczamy tylko strefę montażu.",
+"adv.3h":"Odporny na wilgoć","adv.3p":"Idealny do łazienki, kuchni i piwnicy: powierzchnia nie chłonie wilgoci i nie daje pożywki pleśni.",
+"adv.4h":"Zakrywa wszystko","adv.4p":"Pęknięcia, kable, rury, resztki sztukaterii i krzywizny znikają za idealnie równą płaszczyzną.",
+"adv.5h":"Łatwy w utrzymaniu","adv.5p":"Zmywalny, antystatyczny, stabilny kolorystycznie. Malowanie odpada na stałe – także po dziesięciu latach.",
+"adv.6h":"Dowolny układ światła","adv.6p":"Oprawy, linie świetlne i wnęki można zaplanować w dowolnym miejscu, niezależnie od starej instalacji elektrycznej.",
+"adv.7h":"Materiały z atestami","adv.7p":"Trudno zapalne w klasie B1 / B-s2,d0 i niskoemisyjne – dopuszczone do mieszkań, gabinetów i budynków użyteczności publicznej.",
+"adv.8h":"Gwarancja stałej ceny","adv.8p":"Po pomiarze otrzymujesz wiążącą cenę. Bez aneksów i niespodzianek.",
+
+"gal.eyebrow":"Galeria","gal.h2":"Zrealizowane projekty",
+"gal.p":"Kafelki zastępcze. Po przekazaniu zdjęć z realizacji trafią tutaj jeden do jednego.",
+"gal.1":"Salon · sufit matowy z obwodową wnęką świetlną",
+"gal.2":"Łazienka · sufit lakierowany, wysoki połysk",
+"gal.3":"Sypialnia · gwiaździste niebo ze zmianą barwy",
+"gal.4":"Kuchnia · sufit satynowy z oprawami wpuszczanymi",
+"gal.5":"Korytarz · szczelina cienia, oświetlenie pośrednie",
+"gal.6":"Lokal handlowy · podświetlana powierzchnia transparentna",
+"gal.7":"Gabinet · sufit akustyczny, mikroperforacja",
+"gal.8":"Biuro · linie świetlne w płaszczyźnie sufitu",
+"gal.9":"Klatka schodowa · sufit z nadrukiem, motyw własny",
+
+"prc.eyebrow":"Przebieg","prc.h2":"Od zapytania do gotowego sufitu",
+"prc.1h":"Konsultacja i pomiar","prc.1p":"Bezpłatna wizyta u klienta. Wykonujemy pomiar cyfrowy, omawiamy materiał, profil i plan oświetlenia oraz ustalamy przyłącza.",
+"prc.2h":"Oferta w stałej cenie","prc.2p":"W ciągu 48 godzin otrzymujesz wiążącą ofertę ze wszystkimi pozycjami – materiał, oprawy, montaż, utylizacja.",
+"prc.3h":"Produkcja","prc.3p":"Płótno jest docinane i zgrzewane w zakładzie co do milimetra. Czas realizacji zwykle 7–14 dni roboczych.",
+"prc.4h":"Montaż i odbiór","prc.4p":"Osadzenie profili, podgrzanie płótna, wpięcie, montaż opraw, sprzątanie. Wspólny odbiór i przekazanie karty gwarancyjnej.",
+
+"faq.eyebrow":"FAQ","faq.h2":"Najczęstsze pytania",
+"faq.1q":"Ile wysokości pomieszczenia ubywa?",
+"faq.1a":"Zwykle od 3 do 5 centymetrów. Przy oprawach wpuszczanych odstęp wynika z wysokości zabudowy oprawy – najczęściej 6 do 8 centymetrów. Przy wnękach świetlnych odstęp planujemy świadomie, jako element wystroju.",
+"faq.2q":"Czy trzeba wynosić meble?",
+"faq.2a":"Nie. Duże meble zostają na miejscu i są zabezpieczane folią; wolny dostęp potrzebny jest tylko przy krawędziach ścian. Lampy wiszące demontujemy sami.",
+"faq.3q":"Czy sufit pachnie po montażu?",
+"faq.3a":"Świeżo zamontowane sufity z PVC mogą przez dzień lub dwa mieć delikatny zapach własny, który znika po wywietrzeniu. Stosujemy wyłącznie niskoemisyjne materiały z atestami.",
+"faq.4q":"Co się dzieje przy zalaniu z góry?",
+"faq.4a":"Płótno zatrzymuje wodę i rozciąga się w kształt worka – przy dużych powierzchniach nawet kilkaset litrów. Odpompowujemy wodę w sposób kontrolowany; w większości przypadków sufit wraca potem do pierwotnego kształtu.",
+"faq.5q":"Czy sufit da się otworzyć ponownie?",
+"faq.5a":"Tak. Płótno można wypiąć z profilu i po pracach przy instalacjach wpiąć z powrotem – bez widocznych śladów.",
+"faq.6q":"Ile kosztuje sufit napinany?",
+"faq.6a":"Cena zależy od powierzchni, materiału, docięcia, typu profilu i oświetlenia. Małe pomieszczenia kosztują więcej w przeliczeniu na metr kwadratowy niż duże powierzchnie. Wiarygodna cena powstaje dopiero po pomiarze – dlatego jest u nas bezpłatny.",
+
+"con.eyebrow":"Kontakt","con.h2":"Zamów bezpłatny pomiar",
+"con.p":"Opisz krótko swój projekt – zwykle odpowiadamy jeszcze tego samego dnia roboczego.",
+"con.k1":"Telefon","con.v1":"pn.–pt. 8:00–18:00, sob. po uzgodnieniu",
+"con.k2":"E-mail","con.v2":"Odpowiedź zwykle w ciągu 24 godzin",
+"con.k3":"Adres","con.k4":"Obszar działania",
+"con.v4":"Promień 100 km<small>Dalsze odległości po uzgodnieniu</small>",
+"con.map":"Tutaj pojawi się osadzona mapa z lokalizacją firmy (ładowana zgodnie z RODO dopiero po kliknięciu).",
+
+"f.name":"Imię i nazwisko *","f.phone":"Telefon","f.mail":"E-mail *","f.zip":"Kod pocztowy / miasto",
+"f.type":"Rodzaj projektu","f.o1":"Pomieszczenie mieszkalne","f.o2":"Łazienka / kuchnia","f.o3":"Lokal użytkowy","f.o4":"Sufit świetlny / gwiaździste niebo","f.o5":"Zalanie / renowacja","f.o6":"Inne",
+"f.area":"Powierzchnia ok. (m²)","f.msg":"Twoja wiadomość",
+"f.msgph":"Wielkość pomieszczenia, oczekiwana powierzchnia, oświetlenie, termin …",
+"f.dsgvo":"Zapoznałem/am się z <a href=\"datenschutz.html\">polityką prywatności</a> i wyrażam zgodę na przetwarzanie moich danych w celu obsługi zapytania. *",
+"f.send":"Wyślij zapytanie",
+"f.note":"Prototyp: formularz jeszcze nic nie wysyła. W wersji produkcyjnej zapytanie trafi e-mailem do firmy.",
+
+"ft.about":"Zastępczy profil firmy: montaż sufitów napinanych dla klientów prywatnych i firm. Pomiar, produkcja, montaż i projekt oświetlenia od jednego wykonawcy.",
+"ft.h1":"Usługi","ft.l1":"Mat, satyna i lakier","ft.l2":"Sufity świetlne","ft.l3":"Gwiaździste niebo","ft.l4":"Sufity akustyczne","ft.l5":"Renowacje",
+"ft.h2":"Firma","ft.h3":"Informacje prawne",
+"ft.r1":"Impressum","ft.r2":"Polityka prywatności","ft.r3":"Regulamin (AGB)","ft.r4":"Pouczenie o odstąpieniu",
+"ft.copy":"© 2026 Musterausbau – nazwa zastępcza. Wszelkie prawa zastrzeżone.",
+"ft.proto":"Prototyp – nieprzeznaczony do publicznego udostępnienia.",
+
+"ck.p":"Używamy wyłącznie plików cookie niezbędnych technicznie. Usługi zewnętrzne, takie jak mapy, ładowane są dopiero po wyrażeniu zgody.",
+"ck.ok":"Akceptuję wszystkie","ck.min":"Tylko niezbędne","ck.more":"Szczegóły"
+};
+
+var EN = {
+"doc.title":"Stretch ceilings – prototype",
+"proto.hint":"Test version – content, photos and company details are placeholders.",
+"logo.sub":"Drylining · Acoustics · Ceilings",
+"nav.home":"Home","nav.span":"Stretch ceilings","nav.tab":"Drylining &amp; acoustics","nav.faq":"FAQ","nav.contact":"Contact",
+"hdr.telnote":"Mon–Fri 8am–6pm","hdr.cta":"Request a quote",
+
+"hero.eyebrow":"Stretch ceilings · installed in a day",
+"hero.h1":"Ceilings that transform a room in hours.",
+"hero.p":"Seamless stretch ceilings in matte, satin or gloss – with integrated lighting, no dust, no need to clear the room. We measure, manufacture to the millimetre and install in a single day.",
+"hero.cta1":"Free quote","hero.cta2":"View gallery",
+"hero.t1":"day to install","hero.t2":"years of warranty","hero.t3":"dust or mess","hero.t4":"fixed price",
+
+"tech.eyebrow":"The technology",
+"tech.h2":"What a stretch ceiling is – and why it works",
+"tech.p1":"A stretch ceiling is a paper-thin film or fabric membrane cut to the millimetre. It is clipped into a perimeter track fixed directly to the wall or existing ceiling. The membrane is heated to about 60°C, hung in place, and as it cools it pulls taut into a perfectly smooth, seamless surface.",
+"tech.l1b":"Measurement &amp; manufacturing:","tech.l1":"every ceiling is made to order from a digital survey – cutting, welded seams and cut-outs for lights or ventilation are all prepared in the factory.",
+"tech.l2b":"Track system:","tech.l2":"visible or hidden tracks, a shadow gap or a light cove – the track determines how the ceiling reads at the edge.",
+"tech.l3b":"Materials:","tech.l3":"matte, satin, gloss or translucent PVC film, plus fabric membranes for large seamless areas.",
+"tech.l4b":"What it hides:","tech.l4":"pipes, cables, cracks and an uneven old ceiling disappear permanently – no plastering or sanding needed.",
+"tech.img":"Clipping the membrane into the perimeter track",
+"ph.badge":"Sample photo",
+
+"srv.eyebrow":"Services","srv.h2":"What we install",
+"srv.p":"From the classic white ceiling in a living room to a printed acoustic ceiling in a shop – all from one team.",
+"srv.1h":"Matte, satin &amp; gloss","srv.1p":"The classics: matte white like fresh plaster, a soft satin sheen, or a mirror-like gloss finish that visually doubles the height of a low room.",
+"srv.2h":"Lit ceilings &amp; LED","srv.2p":"Indirect light coves, spotlights, light lines, or a fully backlit translucent surface – lighting becomes part of the ceiling instead of being fixed to it.",
+"srv.3h":"Starlit sky","srv.3p":"Fibre-optic or LED points at any density, with colour change and a twinkle effect – especially popular in bedrooms, home cinemas and wellness rooms.",
+"srv.4h":"Printed ceilings","srv.4p":"Photo-realistic direct print up to 1440 dpi: sky, wood grain, your company logo or your own motif, seamless across the whole surface.",
+"srv.5h":"Acoustic ceilings","srv.5p":"Micro-perforated membranes with an acoustic fleece noticeably reduce reverberation in offices, practices, restaurants and open living spaces.",
+"srv.6h":"Water damage &amp; restoration","srv.6p":"The membrane holds back leaking water and protects furnishings and the floor screed. After controlled pumping-out it usually returns to its original shape.",
+
+"adv.eyebrow":"Advantages","adv.h2":"Why a stretch ceiling instead of drywall or painting",
+"adv.p":"No weeks of building work, no filling, no repainting every few years.",
+"adv.1h":"Done in a day","adv.1p":"An average room is ready to use again in four to six hours – you can use it again that same evening.",
+"adv.2h":"Low dust &amp; clean","adv.2p":"No sanding, no plastering. Furniture usually stays in place; we only cover the area being worked on.",
+"adv.3h":"Moisture-resistant","adv.3p":"Ideal for bathrooms, kitchens and basements: the surface absorbs no moisture and gives mould nothing to grow on.",
+"adv.4h":"Hides everything","adv.4p":"Cracks, cables, pipes, old plaster remnants and an uneven ceiling disappear behind a perfectly flat surface.",
+"adv.5h":"Low maintenance","adv.5p":"Wipeable, antistatic, colour-stable. No more repainting – even after ten years.",
+"adv.6h":"Lighting planned freely","adv.6p":"Spotlights, light lines and coves can be planned anywhere, independent of the existing wiring.",
+"adv.7h":"Tested materials","adv.7p":"Flame-retardant to B1/B-s2,d0 and low-emission – suitable for homes, practices and public buildings.",
+"adv.8h":"Fixed-price guarantee","adv.8p":"After measurement you receive a binding price. No add-ons, no surprises.",
+
+"gal.eyebrow":"Gallery","gal.h2":"Completed projects",
+"gal.p":"Placeholder tiles. As soon as your reference photos are available, they will be swapped in one for one.",
+"gal.1":"Living room · matte ceiling with a perimeter light cove",
+"gal.2":"Bathroom · high-gloss ceiling",
+"gal.3":"Bedroom · colour-changing starlit sky",
+"gal.4":"Kitchen · satin ceiling with recessed spotlights",
+"gal.5":"Hallway · shadow gap, indirect lighting",
+"gal.6":"Shop · backlit translucent surface",
+"gal.7":"Practice · micro-perforated acoustic ceiling",
+"gal.8":"Office · light lines within the ceiling plane",
+"gal.9":"Stairwell · printed ceiling, custom motif",
+
+"prc.eyebrow":"Process","prc.h2":"From enquiry to finished ceiling",
+"prc.1h":"Consultation &amp; measurement","prc.1p":"A free on-site visit. We take a digital survey, discuss material, track and lighting plan, and clarify the connections needed.",
+"prc.2h":"Fixed-price quote","prc.2p":"Within 48 hours you receive a binding quote covering every item – material, fixtures, installation, disposal.",
+"prc.3h":"Manufacturing","prc.3p":"The membrane is cut and welded to the millimetre in our workshop. Lead time is usually 7–14 working days.",
+"prc.4h":"Installation &amp; sign-off","prc.4p":"Fitting the tracks, heating the membrane, clipping it in, fitting the lights, tidying up. Joint sign-off and handover of the warranty certificate.",
+
+"faq.eyebrow":"FAQ","faq.h2":"Frequently asked questions",
+"faq.1q":"How much ceiling height is lost?",
+"faq.1a":"Usually 3 to 5 centimetres. If recessed spotlights are fitted, the gap depends on the fixture's depth – typically 6 to 8 centimetres. For light coves we plan the gap deliberately as a design feature.",
+"faq.2q":"Do I need to clear out the furniture?",
+"faq.2a":"No. Large furniture stays in place and is covered; we only need clear access along the wall edges. We remove any hanging lights ourselves.",
+"faq.3q":"Does the ceiling smell after installation?",
+"faq.3a":"Freshly installed PVC ceilings can have a slight smell for a day or two, which clears with ventilation. We only use low-emission, certified materials.",
+"faq.4q":"What happens if water leaks from above?",
+"faq.4a":"The membrane holds the water back and stretches into a pocket shape – several hundred litres for large areas. We pump it out under control; in most cases the ceiling then returns to its original shape.",
+"faq.5q":"Can the ceiling be opened again?",
+"faq.5a":"Yes. The membrane can be unclipped from the track and re-fitted after work on pipes or ventilation – without visible marks.",
+"faq.6q":"What does a stretch ceiling cost?",
+"faq.6a":"The price depends on area, material, cutting, track type and lighting. Small rooms cost more per square metre than large areas. A reliable price only emerges after measurement – which is why that visit is free.",
+
+"con.eyebrow":"Contact","con.h2":"Request a free measurement",
+"con.p":"Briefly describe your project – we usually reply the same working day.",
+"con.k1":"Phone","con.v1":"Mon–Fri 8am–6pm, Saturday by arrangement",
+"con.k2":"Email","con.v2":"Reply usually within 24 hours",
+"con.k3":"Address","con.k4":"Service area",
+"con.v4":"100 km radius<small>Further distances by arrangement</small>",
+"con.map":"An embedded map with the company location will appear here (loaded only after consent, in line with GDPR).",
+
+"f.name":"Name *","f.phone":"Phone","f.mail":"Email *","f.zip":"Postcode / city",
+"f.type":"Type of project","f.o1":"Living space","f.o2":"Bathroom / kitchen","f.o3":"Commercial / shop","f.o4":"Lit ceiling / starlit sky","f.o5":"Water damage / restoration","f.o6":"Other",
+"f.area":"Area approx. (m²)","f.msg":"Your message",
+"f.msgph":"Room size, preferred finish, lighting, timeframe …",
+"f.dsgvo":"I have read the <a href=\"datenschutz.html\">privacy policy</a> and agree that my data may be processed to handle my enquiry. *",
+"f.send":"Send enquiry",
+"f.note":"Prototype: this form does not send anything yet. In the live version the enquiry is emailed to the company.",
+
+"ft.about":"Placeholder company profile: stretch-ceiling installation for private and commercial customers. Measurement, manufacturing, installation and lighting design from one team.",
+"ft.h1":"Services","ft.l1":"Matte, satin &amp; gloss","ft.l2":"Lit ceilings","ft.l3":"Starlit sky","ft.l4":"Acoustic ceilings","ft.l5":"Restoration",
+"ft.h2":"Company","ft.h3":"Legal",
+"ft.r1":"Legal notice","ft.r2":"Privacy policy","ft.r3":"Terms &amp; conditions","ft.r4":"Right of withdrawal",
+"ft.copy":"© 2026 Musterausbau – placeholder name. All rights reserved.",
+"ft.proto":"Prototype – not intended for public access.",
+
+"ck.p":"We only use technically necessary cookies. External services such as maps are loaded only after you consent.",
+"ck.ok":"Accept all","ck.min":"Necessary only","ck.more":"Details"
+};
+</script>
+<script src="assets/site.js"></script>
+</body>
+</html>
